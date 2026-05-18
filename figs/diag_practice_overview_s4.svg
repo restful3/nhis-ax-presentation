@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 250">
+  <defs>
+    <linearGradient id="bg-p4ov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="12" y="10" width="756" height="230" fill="url(#bg-p4ov)" stroke="#0d9488" stroke-width="2" rx="14"/>
+
+  <!-- 헤더 -->
+  <rect x="30" y="26" width="52" height="24" fill="#0d9488" rx="12"/>
+  <text x="56" y="42.5" text-anchor="middle" font-size="11" font-weight="700" fill="#fff" letter-spacing="0.5">실습</text>
+  <text x="96" y="44" font-size="17" font-weight="800" fill="#1f2937">체납 분류 결과로 직접 한 바퀴</text>
+  <text x="750" y="43" text-anchor="end" font-size="11" font-weight="600" fill="#0d9488">본인 손으로 6단계</text>
+  <line x1="30" y1="60" x2="750" y2="60" stroke="#0d9488" stroke-width="0.8" stroke-opacity="0.4"/>
+
+  <!-- 패널 1: 입력 -->
+  <rect x="30" y="74" width="228" height="150" fill="#fff" stroke="#0d9488" stroke-width="1.2" stroke-opacity="0.55" rx="9"/>
+  <circle cx="55" cy="97" r="9" fill="#0d9488"/>
+  <text x="55" y="100.5" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">1</text>
+  <text x="71" y="101" font-size="11" font-weight="800" fill="#0d9488" letter-spacing="0.3">입력</text>
+  <text x="46" y="128" font-size="9.5" font-weight="700" fill="#1f2937" font-family="ui-monospace,Menlo,Consolas,monospace">세션4_신규체납_10건_분류결과.md</text>
+  <text x="46" y="147" font-size="9.5" fill="#475569">§3 시연2가 만든 분류표</text>
+  <text x="46" y="164" font-size="9.5" fill="#475569">체납 4유형 · 10건</text>
+  <text x="46" y="181" font-size="9.5" fill="#475569">신뢰도 모두 '하'</text>
+  <rect x="42" y="193" width="204" height="24" rx="7" fill="#0d9488" fill-opacity="0.10"/>
+  <text x="144" y="209" text-anchor="middle" font-size="9.3" font-weight="600" fill="#0d9488">일회성 채팅에 첨부</text>
+
+  <!-- 패널 2: 쓰는 능력 -->
+  <rect x="276" y="74" width="228" height="150" fill="#fff" stroke="#0d9488" stroke-width="1.2" stroke-opacity="0.55" rx="9"/>
+  <circle cx="301" cy="97" r="9" fill="#0d9488"/>
+  <text x="301" y="100.5" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">2</text>
+  <text x="317" y="101" font-size="11" font-weight="800" fill="#0d9488" letter-spacing="0.3">쓰는 능력</text>
+  <text x="292" y="128" font-size="11" font-weight="700" fill="#1f2937">시연과 같은 마스터 템플릿</text>
+  <text x="292" y="147" font-size="9.5" fill="#475569">유형 자리만 체납으로 교체</text>
+  <text x="292" y="164" font-size="9.5" fill="#475569">후속 한 줄 3개도 동일</text>
+  <text x="292" y="181" font-size="9.5" fill="#475569">웹 검색 · Canvas</text>
+  <rect x="288" y="193" width="204" height="24" rx="7" fill="#0d9488" fill-opacity="0.10"/>
+  <text x="390" y="209" text-anchor="middle" font-size="9.3" font-weight="600" fill="#0d9488">바뀌는 건 입력과 유형뿐</text>
+
+  <!-- 패널 3: 목적·산출 -->
+  <rect x="522" y="74" width="228" height="150" fill="#fff" stroke="#0d9488" stroke-width="1.2" stroke-opacity="0.55" rx="9"/>
+  <circle cx="547" cy="97" r="9" fill="#0d9488"/>
+  <text x="547" y="100.5" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">3</text>
+  <text x="563" y="101" font-size="11" font-weight="800" fill="#0d9488" letter-spacing="0.3">목적·산출</text>
+  <text x="538" y="128" font-size="11" font-weight="700" fill="#1f2937">6단계를 본인 손으로</text>
+  <text x="538" y="147" font-size="9.5" fill="#475569">초안 → 근거 → Canvas → 검수</text>
+  <text x="538" y="164" font-size="9.5" fill="#475569">신뢰도 '하' → 권고는 신중히</text>
+  <text x="538" y="181" font-size="9.5" fill="#475569">산출 후 4가지 자가 확인</text>
+  <rect x="534" y="193" width="204" height="24" rx="7" fill="#0d9488" fill-opacity="0.16"/>
+  <text x="636" y="209" text-anchor="middle" font-size="9.3" font-weight="600" fill="#0d9488">산출물 · 체납 의사결정 보고서</text>
+</svg>

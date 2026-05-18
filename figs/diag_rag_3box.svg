@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="35 64 730 134">
+  <defs>
+    <linearGradient id="bg-rag" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <!-- Box 1: 질문 -->
+  <g transform="translate(40,70)">
+    <rect x="0" y="0" width="200" height="120" fill="url(#bg-rag)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="100" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#0d9488">① 사용자 질문</text>
+    <rect x="20" y="40" width="160" height="60" fill="#fff" stroke="#cbd5e1" stroke-width="0.6" rx="4"/>
+    <text x="100" y="62" text-anchor="middle" font-size="10" fill="#374151">"제 보험료가 왜</text>
+    <text x="100" y="78" text-anchor="middle" font-size="10" fill="#374151">이렇게 나왔나요?"</text>
+    <text x="100" y="115" text-anchor="middle" font-size="9" fill="#6b7280" font-style="italic">민원 텍스트 / 채팅 입력</text>
+  </g>
+  <line x1="245" y1="130" x2="287" y2="130" stroke="#0d9488" stroke-width="2"/>
+  <polygon points="295,130 287,126 287,134" fill="#0d9488" stroke="none"/>
+
+  <!-- Box 2: 검색 -->
+  <g transform="translate(300,70)">
+    <rect x="0" y="0" width="200" height="120" fill="url(#bg-rag)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="100" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#0d9488">② 관련 문서 검색</text>
+    <!-- Document icons -->
+    <g transform="translate(40,42)">
+      <rect x="0" y="0" width="32" height="40" fill="#fff" stroke="#94a3b8" stroke-width="0.8" rx="2"/>
+      <line x1="6" y1="10" x2="26" y2="10" stroke="#cbd5e1" stroke-width="0.8"/>
+      <line x1="6" y1="16" x2="26" y2="16" stroke="#cbd5e1" stroke-width="0.8"/>
+      <line x1="6" y1="22" x2="26" y2="22" stroke="#cbd5e1" stroke-width="0.8"/>
+      <line x1="6" y1="28" x2="20" y2="28" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="16" y="52" text-anchor="middle" font-size="8" fill="#6b7280">법령</text>
+    </g>
+    <g transform="translate(84,42)">
+      <rect x="0" y="0" width="32" height="40" fill="#fff" stroke="#94a3b8" stroke-width="0.8" rx="2"/>
+      <line x1="6" y1="10" x2="26" y2="10" stroke="#cbd5e1" stroke-width="0.8"/>
+      <line x1="6" y1="16" x2="26" y2="16" stroke="#cbd5e1" stroke-width="0.8"/>
+      <line x1="6" y1="22" x2="26" y2="22" stroke="#cbd5e1" stroke-width="0.8"/>
+      <line x1="6" y1="28" x2="20" y2="28" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="16" y="52" text-anchor="middle" font-size="8" fill="#6b7280">매뉴얼</text>
+    </g>
+    <g transform="translate(128,42)">
+      <rect x="0" y="0" width="32" height="40" fill="#fff" stroke="#94a3b8" stroke-width="0.8" rx="2"/>
+      <line x1="6" y1="10" x2="26" y2="10" stroke="#cbd5e1" stroke-width="0.8"/>
+      <line x1="6" y1="16" x2="26" y2="16" stroke="#cbd5e1" stroke-width="0.8"/>
+      <line x1="6" y1="22" x2="26" y2="22" stroke="#cbd5e1" stroke-width="0.8"/>
+      <line x1="6" y1="28" x2="20" y2="28" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="16" y="52" text-anchor="middle" font-size="8" fill="#6b7280">사례</text>
+    </g>
+    <text x="100" y="115" text-anchor="middle" font-size="9" fill="#6b7280" font-style="italic">DB·매뉴얼·과거 답변에서 발췌</text>
+  </g>
+  <line x1="505" y1="130" x2="547" y2="130" stroke="#0d9488" stroke-width="2"/>
+  <polygon points="555,130 547,126 547,134" fill="#0d9488" stroke="none"/>
+
+  <!-- Box 3: 답변+출처 -->
+  <g transform="translate(560,70)">
+    <rect x="0" y="0" width="200" height="120" fill="url(#bg-rag)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="100" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#0d9488">③ 답변 + 출처 인용</text>
+    <rect x="14" y="38" width="172" height="64" fill="#fff" stroke="#cbd5e1" stroke-width="0.6" rx="4"/>
+    <text x="100" y="56" text-anchor="middle" font-size="9" fill="#374151">"법 제○조에 따라…"</text>
+    <text x="100" y="72" text-anchor="middle" font-size="8" fill="#6b7280">[출처: 국민건강보험법</text>
+    <text x="100" y="84" text-anchor="middle" font-size="8" fill="#6b7280">제87조 제2항]</text>
+    <text x="100" y="115" text-anchor="middle" font-size="9" fill="#6b7280" font-style="italic">근거 가능 → HITL 검토 쉬움</text>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="65 30 670 120">
+  <!-- 회귀 화살표 (5 → 1) : 라벨보다 아래로 휘어 라벨과 분리 -->
+  <path d="M 680 80 C 680 36, 120 36, 120 78" stroke="#0d9488" stroke-width="2" stroke-dasharray="5,4" fill="none"/>
+  <polygon points="120,80 116,72 124,72" fill="#0d9488"/>
+  <text x="400" y="44" text-anchor="middle" font-size="11" fill="#0d9488" font-style="italic">2~3회 반복</text>
+
+  <!-- Step 1 -->
+  <rect x="70" y="80" width="100" height="42" rx="8" fill="#0d9488"/>
+  <text x="120" y="106" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">초안 작성</text>
+  <text x="120" y="144" text-anchor="middle" font-size="10" fill="#6b7280">3요소 적용</text>
+
+  <line x1="175" y1="101" x2="203" y2="101" stroke="#0d9488" stroke-width="2"/>
+  <polygon points="210,101 202,97 202,105" fill="#0d9488"/>
+
+  <!-- Step 2 -->
+  <rect x="210" y="80" width="100" height="42" rx="8" fill="#0d9488"/>
+  <text x="260" y="106" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">AI 실행</text>
+  <text x="260" y="144" text-anchor="middle" font-size="10" fill="#6b7280">결과 받기</text>
+
+  <line x1="315" y1="101" x2="343" y2="101" stroke="#0d9488" stroke-width="2"/>
+  <polygon points="350,101 342,97 342,105" fill="#0d9488"/>
+
+  <!-- Step 3 -->
+  <rect x="350" y="80" width="100" height="42" rx="8" fill="#0d9488"/>
+  <text x="400" y="106" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">결과 확인</text>
+  <text x="400" y="144" text-anchor="middle" font-size="10" fill="#6b7280">부족한 부분 발견</text>
+
+  <line x1="455" y1="101" x2="483" y2="101" stroke="#0d9488" stroke-width="2"/>
+  <polygon points="490,101 482,97 482,105" fill="#0d9488"/>
+
+  <!-- Step 4 -->
+  <rect x="490" y="80" width="100" height="42" rx="8" fill="#0d9488"/>
+  <text x="540" y="106" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">프롬프트 수정</text>
+  <text x="540" y="144" text-anchor="middle" font-size="10" fill="#6b7280">한 줄씩 추가</text>
+
+  <line x1="595" y1="101" x2="623" y2="101" stroke="#0d9488" stroke-width="2"/>
+  <polygon points="630,101 622,97 622,105" fill="#0d9488"/>
+
+  <!-- Step 5 -->
+  <rect x="630" y="80" width="100" height="42" rx="8" fill="#0d9488"/>
+  <text x="680" y="106" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">재실행</text>
+  <text x="680" y="144" text-anchor="middle" font-size="10" fill="#6b7280">→ 1로 돌아감</text>
+</svg>

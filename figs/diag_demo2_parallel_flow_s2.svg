@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="55 50 690 138">
+  <defs>
+    <marker id="demo2-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0d9488"/>
+    </marker>
+  </defs>
+
+  <!-- Row 1: 시연 1 (텍스트) -->
+  <text x="65" y="80" text-anchor="start" font-size="12" font-weight="700" fill="#0d9488">시연 1</text>
+  <text x="65" y="96" text-anchor="start" font-size="10" fill="#6b7280">(텍스트)</text>
+
+  <g transform="translate(130, 58)">
+    <rect width="130" height="48" fill="#fff" stroke="#0d9488" stroke-width="1.5" rx="24"/>
+    <text x="65" y="19" text-anchor="middle" font-size="10" font-weight="700" fill="#4b5563">1차</text>
+    <text x="65" y="36" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">"이 민원 뭐야?"</text>
+  </g>
+  <line x1="265" y1="82" x2="285" y2="82" stroke="#0d9488" stroke-width="2" marker-end="url(#demo2-arrow)"/>
+
+  <g transform="translate(290, 58)">
+    <rect width="130" height="48" fill="#fff" stroke="#0d9488" stroke-width="1.5" rx="24"/>
+    <text x="65" y="19" text-anchor="middle" font-size="10" font-weight="700" fill="#4b5563">2차</text>
+    <text x="65" y="36" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">"5개로 요약"</text>
+  </g>
+  <line x1="425" y1="82" x2="445" y2="82" stroke="#0d9488" stroke-width="2" marker-end="url(#demo2-arrow)"/>
+
+  <!-- Wide pill spanning col 3+4 -->
+  <g transform="translate(450, 58)">
+    <rect width="290" height="48" fill="#0d9488" fill-opacity="0.06" stroke="#0d9488" stroke-width="1.5" rx="24"/>
+    <text x="145" y="17" text-anchor="middle" font-size="10" font-weight="700" fill="#4b5563">3차</text>
+    <text x="145" y="33" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">"표 + 어려운 거"</text>
+    <text x="145" y="44" text-anchor="middle" font-size="9" font-style="italic" fill="#0d9488">형식 + 인사이트 통합</text>
+  </g>
+
+  <!-- Row 2: 시연 2 (엑셀) -->
+  <text x="65" y="154" text-anchor="start" font-size="12" font-weight="700" fill="#0d9488">시연 2</text>
+  <text x="65" y="170" text-anchor="start" font-size="10" fill="#6b7280">(엑셀)</text>
+
+  <g transform="translate(130, 132)">
+    <rect width="130" height="48" fill="#fff" stroke="#0d9488" stroke-width="1.5" rx="24"/>
+    <text x="65" y="19" text-anchor="middle" font-size="10" font-weight="700" fill="#4b5563">1차</text>
+    <text x="65" y="36" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">"데이터 설명"</text>
+  </g>
+  <line x1="265" y1="156" x2="285" y2="156" stroke="#0d9488" stroke-width="2" marker-end="url(#demo2-arrow)"/>
+
+  <g transform="translate(290, 132)">
+    <rect width="130" height="48" fill="#fff" stroke="#0d9488" stroke-width="1.5" rx="24"/>
+    <text x="65" y="19" text-anchor="middle" font-size="10" font-weight="700" fill="#4b5563">2차</text>
+    <text x="65" y="36" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">"분포 요약"</text>
+  </g>
+  <line x1="425" y1="156" x2="445" y2="156" stroke="#0d9488" stroke-width="2" marker-end="url(#demo2-arrow)"/>
+
+  <g transform="translate(450, 132)">
+    <rect width="130" height="48" fill="#fff" stroke="#0d9488" stroke-width="1.5" rx="24"/>
+    <text x="65" y="19" text-anchor="middle" font-size="10" font-weight="700" fill="#4b5563">3차</text>
+    <text x="65" y="36" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">"차트 그려줘"</text>
+  </g>
+  <line x1="585" y1="156" x2="605" y2="156" stroke="#0d9488" stroke-width="2" marker-end="url(#demo2-arrow)"/>
+
+  <g transform="translate(610, 132)">
+    <rect width="130" height="48" fill="#fff" stroke="#0d9488" stroke-width="1.5" rx="24"/>
+    <text x="65" y="19" text-anchor="middle" font-size="10" font-weight="700" fill="#4b5563">4차</text>
+    <text x="65" y="36" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">"패턴 추출"</text>
+  </g>
+</svg>

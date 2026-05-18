@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="55 64 690 184">
+  <defs>
+    <linearGradient id="bg-2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <!-- Box 1: 맥락 -->
+  <g transform="translate(60,70)">
+    <rect x="0" y="0" width="200" height="170" fill="url(#bg-2)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="100" y="30" text-anchor="middle" font-size="13" font-weight="700" fill="#0d9488">① 맥락 (Context)</text>
+    <text x="100" y="55" text-anchor="middle" font-size="14" font-weight="600" fill="#1f2937">누가 누구에게</text>
+    <text x="100" y="78" text-anchor="middle" font-size="11" fill="#374151">"너는 건강보험공단</text>
+    <text x="100" y="95" text-anchor="middle" font-size="11" fill="#374151">민원 담당자야"</text>
+    <text x="100" y="125" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">→ 일반 답변 X</text>
+    <text x="100" y="142" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">→ 도메인 답변 O</text>
+  </g>
+
+  <!-- Box 2: 지시 -->
+  <g transform="translate(300,70)">
+    <rect x="0" y="0" width="200" height="170" fill="url(#bg-2)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="100" y="30" text-anchor="middle" font-size="13" font-weight="700" fill="#0d9488">② 지시 (Instruction)</text>
+    <text x="100" y="55" text-anchor="middle" font-size="14" font-weight="600" fill="#1f2937">무엇을 어떻게</text>
+    <text x="100" y="78" text-anchor="middle" font-size="11" fill="#374151">"5개 유형으로 분류,</text>
+    <text x="100" y="95" text-anchor="middle" font-size="11" fill="#374151">건수와 키워드 추출"</text>
+    <text x="100" y="125" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">→ 모호한 결과 X</text>
+    <text x="100" y="142" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">→ 정확한 결과 O</text>
+  </g>
+
+  <!-- Box 3: 형식 -->
+  <g transform="translate(540,70)">
+    <rect x="0" y="0" width="200" height="170" fill="url(#bg-2)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="100" y="30" text-anchor="middle" font-size="13" font-weight="700" fill="#0d9488">③ 형식 (Format)</text>
+    <text x="100" y="55" text-anchor="middle" font-size="14" font-weight="600" fill="#1f2937">어떤 모양으로</text>
+    <text x="100" y="78" text-anchor="middle" font-size="11" fill="#374151">"표 형식, 번호,</text>
+    <text x="100" y="95" text-anchor="middle" font-size="11" fill="#374151">불릿 리스트로"</text>
+    <text x="100" y="125" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">→ 자유 출력 X</text>
+    <text x="100" y="142" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">→ 재사용 가능 O</text>
+  </g>
+</svg>

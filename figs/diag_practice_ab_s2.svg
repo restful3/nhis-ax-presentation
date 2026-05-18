@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 0 780 270">
+  <defs>
+    <linearGradient id="bg-prac-card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.11"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.025"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ============= 카드 A — 메인 (17분) ============= -->
+  <rect x="20" y="10" width="365" height="250" fill="url(#bg-prac-card)" stroke="#0d9488" stroke-width="2" rx="12"/>
+
+  <!-- 상단: 태그 pill (solid) + 시간 -->
+  <rect x="34" y="24" width="78" height="22" fill="#0d9488" rx="11"/>
+  <text x="73" y="39" text-anchor="middle" font-size="10" font-weight="700" fill="#fff" letter-spacing="0.6">A · 메인</text>
+  <text x="371" y="40" text-anchor="end" font-size="12" font-weight="700" fill="#0d9488">17분 · 2사이클</text>
+
+  <!-- 큰 제목 + 분리선 -->
+  <text x="34" y="72" font-size="16" font-weight="800" fill="#1f2937">민원 20건 분류</text>
+  <line x1="34" y1="81" x2="371" y2="81" stroke="#0d9488" stroke-width="0.7" stroke-opacity="0.45"/>
+
+  <!-- 섹션 1: 데이터 -->
+  <text x="34" y="100" font-size="9" font-weight="800" fill="#0d9488" letter-spacing="1.3">데이터</text>
+  <text x="34" y="116" font-size="11" font-weight="600" fill="#1f2937" font-family="ui-monospace,Menlo,Consolas,monospace">세션2_민원데이터_20건.txt</text>
+  <text x="34" y="130" font-size="9.5" fill="#475569">텍스트 · 평균 2~4줄/건 · 가상 시나리오</text>
+
+  <!-- 섹션 2: 할 일 -->
+  <text x="34" y="152" font-size="9" font-weight="800" fill="#0d9488" letter-spacing="1.3">할 일</text>
+  <text x="34" y="168" font-size="11" font-weight="500" fill="#1f2937">5개 이내 유형으로 분류 + 키워드·건수·근거</text>
+  <text x="34" y="182" font-size="9.5" fill="#475569">애매한 1~3건은 "애매" 별도 표기 (환각 방지)</text>
+
+  <!-- 섹션 3: 참고 표준 분포 -->
+  <text x="34" y="204" font-size="9" font-weight="800" fill="#0d9488" letter-spacing="1.3">참고 표준 분포</text>
+  <text x="34" y="220" font-size="10" fill="#1f2937">자격변동 5 · 보험료산정 5 · 급여제한 6</text>
+  <text x="34" y="234" font-size="10" fill="#1f2937">자격확인 2 · 기타 2 (총 20건)</text>
+
+  <!-- ============= 카드 B — 맛보기 (7분) ============= -->
+  <rect x="405" y="10" width="365" height="250" fill="url(#bg-prac-card)" stroke="#0d9488" stroke-width="2" rx="12"/>
+
+  <!-- 상단: 태그 pill (outline) + 시간 -->
+  <rect x="419" y="24" width="86" height="22" fill="#fff" stroke="#0d9488" stroke-width="1.5" rx="11"/>
+  <text x="462" y="39" text-anchor="middle" font-size="10" font-weight="700" fill="#0d9488" letter-spacing="0.6">B · 맛보기</text>
+  <text x="756" y="40" text-anchor="end" font-size="12" font-weight="700" fill="#0d9488">7분 · 1사이클</text>
+
+  <!-- 큰 제목 + 분리선 -->
+  <text x="419" y="72" font-size="16" font-weight="800" fill="#1f2937">체납 10건 분류</text>
+  <line x1="419" y1="81" x2="756" y2="81" stroke="#0d9488" stroke-width="0.7" stroke-opacity="0.45"/>
+
+  <!-- 섹션 1: 데이터 -->
+  <text x="419" y="100" font-size="9" font-weight="800" fill="#0d9488" letter-spacing="1.3">데이터</text>
+  <text x="419" y="116" font-size="11" font-weight="600" fill="#1f2937" font-family="ui-monospace,Menlo,Consolas,monospace">세션2_체납샘플_10건.txt</text>
+  <text x="419" y="130" font-size="9.5" fill="#475569">정형 · 15칼럼 (연령·소득·재산·체납기간·압류이력 등)</text>
+
+  <!-- 섹션 2: 할 일 -->
+  <text x="419" y="152" font-size="9" font-weight="800" fill="#0d9488" letter-spacing="1.3">할 일</text>
+  <text x="419" y="168" font-size="11" font-weight="500" fill="#1f2937">4유형 중 하나로 분류 + 판단 근거 한 줄</text>
+  <text x="419" y="182" font-size="9.5" fill="#475569">경제곤란 / 상습 / 단기실수 / 고의</text>
+
+  <!-- 섹션 3: 정답 분포 -->
+  <text x="419" y="204" font-size="9" font-weight="800" fill="#0d9488" letter-spacing="1.3">정답 분포</text>
+  <text x="419" y="220" font-size="10" fill="#1f2937">경제곤란 3 · 상습 3 · 단기실수 2 · 고의 2</text>
+  <text x="419" y="234" font-size="9.5" fill="#475569">Gemini 정확도 5/10 — 경계 케이스 절반 오답</text>
+
+  <!-- 섹션 4: 연결 (한 줄) -->
+  <text x="419" y="252" font-size="9" font-weight="800" fill="#0d9488" letter-spacing="1.3">연결</text>
+  <text x="458" y="252" font-size="10" fill="#1f2937">§3 Rules로 50% → 90%대로 끌어올림</text>
+</svg>

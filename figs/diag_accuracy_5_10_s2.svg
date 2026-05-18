@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 0 780 305">
+  <defs>
+    <linearGradient id="bg-acc-num" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#ef4444" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="bg-mistake-row" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ============= 상단: 분포 표 + 정확도 ============= -->
+
+  <!-- 좌측: 4유형 분포 비교 표 -->
+  <rect x="20" y="14" width="500" height="130" fill="#fff" stroke="#cbd5e1" stroke-width="1.3" rx="10"/>
+  <text x="34" y="34" font-size="10" font-weight="800" fill="#64748b" letter-spacing="1.3">4유형 분포 비교 (10건)</text>
+  <line x1="34" y1="42" x2="506" y2="42" stroke="#cbd5e1" stroke-width="0.6"/>
+
+  <!-- header row -->
+  <text x="44" y="62" font-size="9.5" font-weight="800" fill="#64748b" letter-spacing="1">유형</text>
+  <text x="240" y="62" text-anchor="middle" font-size="9.5" font-weight="800" fill="#64748b" letter-spacing="1">정답</text>
+  <text x="340" y="62" text-anchor="middle" font-size="9.5" font-weight="800" fill="#0d9488" letter-spacing="1">Gemini</text>
+  <text x="450" y="62" text-anchor="middle" font-size="9.5" font-weight="800" fill="#64748b" letter-spacing="1">차이</text>
+  <line x1="34" y1="68" x2="506" y2="68" stroke="#cbd5e1" stroke-width="0.4"/>
+
+  <!-- row: 경제곤란 -->
+  <text x="44" y="86" font-size="11.5" font-weight="600" fill="#1f2937">경제곤란</text>
+  <text x="240" y="86" text-anchor="middle" font-size="11.5" fill="#1f2937">3</text>
+  <text x="340" y="86" text-anchor="middle" font-size="11.5" font-weight="700" fill="#0d9488">4</text>
+  <text x="450" y="86" text-anchor="middle" font-size="11" font-weight="700" fill="#ef4444">+1 ⚠</text>
+
+  <!-- row: 상습 -->
+  <text x="44" y="105" font-size="11.5" font-weight="600" fill="#1f2937">상습</text>
+  <text x="240" y="105" text-anchor="middle" font-size="11.5" fill="#1f2937">3</text>
+  <text x="340" y="105" text-anchor="middle" font-size="11.5" font-weight="700" fill="#0d9488">2</text>
+  <text x="450" y="105" text-anchor="middle" font-size="11" font-weight="700" fill="#ef4444">−1 ⚠</text>
+
+  <!-- row: 단기실수 -->
+  <text x="44" y="124" font-size="11.5" font-weight="600" fill="#1f2937">단기실수</text>
+  <text x="240" y="124" text-anchor="middle" font-size="11.5" fill="#1f2937">2</text>
+  <text x="340" y="124" text-anchor="middle" font-size="11.5" font-weight="700" fill="#0d9488">2</text>
+  <text x="450" y="124" text-anchor="middle" font-size="11.5" fill="#94a3b8">=</text>
+
+  <!-- row: 고의 -->
+  <text x="44" y="139" font-size="11.5" font-weight="600" fill="#1f2937">고의</text>
+  <text x="240" y="139" text-anchor="middle" font-size="11.5" fill="#1f2937">2</text>
+  <text x="340" y="139" text-anchor="middle" font-size="11.5" font-weight="700" fill="#0d9488">2</text>
+  <text x="450" y="139" text-anchor="middle" font-size="11.5" fill="#94a3b8">=</text>
+
+  <!-- 우측: 정확도 큰 박스 -->
+  <rect x="540" y="14" width="230" height="130" fill="url(#bg-acc-num)" stroke="#ef4444" stroke-width="2" rx="10"/>
+  <text x="554" y="34" font-size="10" font-weight="800" fill="#b91c1c" letter-spacing="1.3">정확도</text>
+  <text x="640" y="92" text-anchor="end" font-size="48" font-weight="800" fill="#ef4444" font-family="ui-monospace,Menlo,Consolas,monospace">5</text>
+  <text x="650" y="92" text-anchor="start" font-size="28" font-weight="600" fill="#94a3b8" font-family="ui-monospace,Menlo,Consolas,monospace">/ 10</text>
+  <line x1="554" y1="104" x2="756" y2="104" stroke="#ef4444" stroke-width="0.6" stroke-opacity="0.4"/>
+  <text x="655" y="122" text-anchor="middle" font-size="12" font-weight="800" fill="#b91c1c">50%</text>
+  <text x="655" y="137" text-anchor="middle" font-size="9.5" fill="#475569">경계 케이스에서 절반 오답</text>
+
+  <!-- ============= 하단: 갈린 두 경계 ============= -->
+  <text x="20" y="176" font-size="10" font-weight="800" fill="#64748b" letter-spacing="1.3">오답 5건의 갈린 두 경계</text>
+
+  <!-- 좌측: 고의 ↔ 상습 (4건) -->
+  <rect x="20" y="186" width="375" height="110" fill="url(#bg-mistake-row)" stroke="#0d9488" stroke-width="1.5" rx="10"/>
+  <rect x="34" y="198" width="160" height="22" fill="#0d9488" rx="11"/>
+  <text x="114" y="213" text-anchor="middle" font-size="10" font-weight="700" fill="#fff" letter-spacing="0.5">고의 ↔ 상습 (4건)</text>
+  <text x="34" y="240" font-size="11" fill="#1f2937">압류이력만 보면 → <tspan font-weight="700">고의</tspan></text>
+  <text x="34" y="256" font-size="11" fill="#1f2937">장기·반복만 보면 → <tspan font-weight="700">상습</tspan></text>
+  <line x1="34" y1="266" x2="381" y2="266" stroke="#0d9488" stroke-width="0.5" stroke-opacity="0.4"/>
+  <text x="34" y="284" font-size="11" font-weight="700" fill="#0d9488">→ 소득 가중치를 충분히 반영 못 함</text>
+
+  <!-- 우측: 상습 ↔ 경제곤란 (1건) -->
+  <rect x="410" y="186" width="360" height="110" fill="url(#bg-mistake-row)" stroke="#0d9488" stroke-width="1.5" rx="10"/>
+  <rect x="424" y="198" width="184" height="22" fill="#0d9488" rx="11"/>
+  <text x="516" y="213" text-anchor="middle" font-size="10" font-weight="700" fill="#fff" letter-spacing="0.5">상습 ↔ 경제곤란 (1건)</text>
+  <text x="424" y="240" font-size="11" fill="#1f2937">병원이용 <tspan font-weight="700">98회</tspan>를</text>
+  <text x="424" y="256" font-size="11" fill="#1f2937">"지출 부담"으로 해석</text>
+  <line x1="424" y1="266" x2="766" y2="266" stroke="#0d9488" stroke-width="0.5" stroke-opacity="0.4"/>
+  <text x="424" y="284" font-size="11" font-weight="700" fill="#0d9488">→ 도메인 외 신호 과대 가중</text>
+</svg>

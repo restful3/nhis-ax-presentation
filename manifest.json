@@ -1,0 +1,34 @@
+{
+  "generator": "scripts/build_presentation.py",
+  "built_at": "2026-05-18T22:37:37+00:00",
+  "git": {
+    "commit": "a5ba4c1af789c944d4916911d94e618d12f82970",
+    "tag": "edu-0520-v1.0-1-ga5ba4c1",
+    "tag_points_at_head": ""
+  },
+  "input": {
+    "combined_html": "output/NHIS_AX_slides_0520_combined.html",
+    "combined_html_sha256": "3c7460d809b6ab505e6046809c40fa09230fecfb889efa09790d18c625fecc61"
+  },
+  "decisions": {
+    "Q2_animation": "요소 등장 애니메이션 없음 (사용자 요청 2026-05-19) — fragment 단계 등장·요소 entrance 애니메이션 모두 제거. 방향키/클릭/스와이프 한 번이면 다음 장 직행, 장 전환 슬라이드 효과만 유지.",
+    "Q3_bundle": "완전 번들 (폰트·Chart.js 로컬, 외부 네트워크 0)",
+    "fonts": "옵션 B — font-family 를 번들 폰트(Inter·Noto Sans KR·JetBrains Mono)로 정리. @fontsource v5 woff2. 화살표·원숫자 등 일부 기호는 서브셋 밖이라 시스템 폰트로 폴백(렌더는 정상)."
+  },
+  "counts": {
+    "slides": 112,
+    "slide_total_display": 112,
+    "figs_copied": 62,
+    "font_faces": 14,
+    "fonts_downloaded_this_run": 0,
+    "external_url_refs_controlled_files": 0,
+    "external_url_strings_in_chartjs": 0
+  },
+  "hashes": {
+    "index.html": "b7026669b513029734009f318851bfd43fc32fa302964f3008d678f0ea6a9da2",
+    "assets/deck.js": "53759178e1ac513fcc610186bb13b27c371cf4bd8b6e095c911c3837827f5804",
+    "assets/theme_slides.css": "3baf13c76df2f3b015f28cd97cbee09dc2fdb29e2e10c424302e666dd8f01f44",
+    "assets/chart.umd.min.js": "d7073f8f80a6ce74fb33e22e16d692ae8306fbf69d8168fa0db8f3142837ab68",
+    "assets/fonts.css": "34a3544b98efe62db88b4cf40031fc85d47a6133d74040cd9fe87ab74ba19e5c"
+  }
+}

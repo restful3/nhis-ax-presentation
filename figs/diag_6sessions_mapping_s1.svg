@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 72 760 202">
+  <defs>
+    <linearGradient id="bg-map" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 헤더 -->
+  <g transform="translate(40,80)">
+    <rect x="0" y="0" width="80" height="32" fill="#0d9488" rx="4"/>
+    <text x="40" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">세션</text>
+
+    <rect x="84" y="0" width="120" height="32" fill="#0d9488" rx="4"/>
+    <text x="144" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">시간</text>
+
+    <rect x="208" y="0" width="120" height="32" fill="#0d9488" rx="4"/>
+    <text x="268" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">AX 단계</text>
+
+    <rect x="332" y="0" width="200" height="32" fill="#0d9488" rx="4"/>
+    <text x="432" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">다루는 데이터</text>
+
+    <rect x="536" y="0" width="184" height="32" fill="#0d9488" rx="4"/>
+    <text x="628" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">산출물</text>
+  </g>
+
+  <!-- 세션 2 -->
+  <g transform="translate(40,118)">
+    <rect x="0" y="0" width="80" height="34" fill="url(#bg-map)" stroke="#0d9488" stroke-width="0.8" rx="4"/>
+    <text x="40" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#1f2937">세션 2</text>
+    <rect x="84" y="0" width="120" height="34" fill="#fff" stroke="#0d9488" stroke-width="0.6" rx="4"/>
+    <text x="144" y="22" text-anchor="middle" font-size="10" fill="#374151">10:40~12:00</text>
+    <rect x="208" y="0" width="120" height="34" fill="#0d9488" fill-opacity="0.18" stroke="#0d9488" stroke-width="0.8" rx="4"/>
+    <text x="268" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#0d9488">1단계 분석</text>
+    <rect x="332" y="0" width="200" height="34" fill="#fff" stroke="#0d9488" stroke-width="0.6" rx="4"/>
+    <text x="432" y="22" text-anchor="middle" font-size="10" fill="#374151">이의신청 텍스트 + 체납 엑셀</text>
+    <rect x="536" y="0" width="184" height="34" fill="#fff" stroke="#0d9488" stroke-width="0.6" rx="4"/>
+    <text x="628" y="22" text-anchor="middle" font-size="10" fill="#374151">분류 체계 표</text>
+  </g>
+
+  <!-- 세션 3 -->
+  <g transform="translate(40,156)">
+    <rect x="0" y="0" width="80" height="34" fill="url(#bg-map)" stroke="#0d9488" stroke-width="0.8" rx="4"/>
+    <text x="40" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#1f2937">세션 3</text>
+    <rect x="84" y="0" width="120" height="34" fill="#fff" stroke="#0d9488" stroke-width="0.6" rx="4"/>
+    <text x="144" y="22" text-anchor="middle" font-size="10" fill="#374151">13:00~14:30</text>
+    <rect x="208" y="0" width="120" height="34" fill="#0d9488" fill-opacity="0.18" stroke="#0d9488" stroke-width="0.8" rx="4"/>
+    <text x="268" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#0d9488">2단계 자동 분류</text>
+    <rect x="332" y="0" width="200" height="34" fill="#fff" stroke="#0d9488" stroke-width="0.6" rx="4"/>
+    <text x="432" y="22" text-anchor="middle" font-size="10" fill="#374151">신규 민원 10건 (경계 사례 포함)</text>
+    <rect x="536" y="0" width="184" height="34" fill="#fff" stroke="#0d9488" stroke-width="0.6" rx="4"/>
+    <text x="628" y="22" text-anchor="middle" font-size="10" fill="#374151">자동 분류 표 + 신뢰도</text>
+  </g>
+
+  <!-- 세션 4 -->
+  <g transform="translate(40,194)">
+    <rect x="0" y="0" width="80" height="34" fill="url(#bg-map)" stroke="#0d9488" stroke-width="0.8" rx="4"/>
+    <text x="40" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#1f2937">세션 4</text>
+    <rect x="84" y="0" width="120" height="34" fill="#fff" stroke="#0d9488" stroke-width="0.6" rx="4"/>
+    <text x="144" y="22" text-anchor="middle" font-size="10" fill="#374151">14:40~16:00</text>
+    <rect x="208" y="0" width="120" height="34" fill="#0d9488" fill-opacity="0.18" stroke="#0d9488" stroke-width="0.8" rx="4"/>
+    <text x="268" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#0d9488">3단계 보고서</text>
+    <rect x="332" y="0" width="200" height="34" fill="#fff" stroke="#0d9488" stroke-width="0.6" rx="4"/>
+    <text x="432" y="22" text-anchor="middle" font-size="10" fill="#374151">세션 3의 분류 결과</text>
+    <rect x="536" y="0" width="184" height="34" fill="#fff" stroke="#0d9488" stroke-width="0.6" rx="4"/>
+    <text x="628" y="22" text-anchor="middle" font-size="10" fill="#374151">보고서 초안</text>
+  </g>
+
+  <!-- 세션 5 -->
+  <g transform="translate(40,232)">
+    <rect x="0" y="0" width="80" height="34" fill="url(#bg-map)" stroke="#0d9488" stroke-width="0.8" rx="4"/>
+    <text x="40" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#1f2937">세션 5</text>
+    <rect x="84" y="0" width="120" height="34" fill="#fff" stroke="#0d9488" stroke-width="0.6" rx="4"/>
+    <text x="144" y="22" text-anchor="middle" font-size="10" fill="#374151">16:10~17:10</text>
+    <rect x="208" y="0" width="120" height="34" fill="#0d9488" fill-opacity="0.18" stroke="#0d9488" stroke-width="0.8" rx="4"/>
+    <text x="268" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#0d9488">4단계 기획</text>
+    <rect x="332" y="0" width="200" height="34" fill="#fff" stroke="#0d9488" stroke-width="0.6" rx="4"/>
+    <text x="432" y="22" text-anchor="middle" font-size="10" fill="#374151">자기 부서 업무</text>
+    <rect x="536" y="0" width="184" height="34" fill="#fff" stroke="#0d9488" stroke-width="0.6" rx="4"/>
+    <text x="628" y="22" text-anchor="middle" font-size="10" fill="#374151">AX 과제 기획안</text>
+  </g>
+</svg>

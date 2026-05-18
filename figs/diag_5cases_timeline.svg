@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 84 755 232">
+  <line x1="60" y1="200" x2="740" y2="200" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="60" y="225" font-size="10" fill="#6b7280">2025.4</text>
+  <text x="220" y="225" font-size="10" fill="#6b7280">2025.11</text>
+  <text x="380" y="225" font-size="10" fill="#6b7280">2026.2</text>
+  <text x="540" y="225" font-size="10" fill="#6b7280">2026.3</text>
+
+  <!-- 사례 5: 2025.4, 상단 -->
+  <g transform="translate(60,90)">
+    <circle cx="0" cy="110" r="8" fill="#0d9488"/>
+    <line x1="0" y1="100" x2="0" y2="60" stroke="#0d9488" stroke-width="1" stroke-dasharray="2,2"/>
+    <rect x="-65" y="0" width="130" height="60" fill="#0d9488" fill-opacity="0.1" stroke="#0d9488" stroke-width="1" rx="4"/>
+    <text x="0" y="18" text-anchor="middle" font-size="10" font-weight="700" fill="#0d9488">사례집 110건</text>
+    <text x="0" y="34" text-anchor="middle" font-size="9" fill="#374151">공단 등재 (39%→90%)</text>
+    <text x="0" y="50" text-anchor="middle" font-size="9" fill="#6b7280">5번 사례</text>
+  </g>
+
+  <!-- 사례 2: 2025.11, 상단 -->
+  <g transform="translate(220,90)">
+    <circle cx="0" cy="110" r="8" fill="#0d9488"/>
+    <line x1="0" y1="100" x2="0" y2="60" stroke="#0d9488" stroke-width="1" stroke-dasharray="2,2"/>
+    <rect x="-65" y="0" width="130" height="60" fill="#0d9488" fill-opacity="0.1" stroke="#0d9488" stroke-width="1" rx="4"/>
+    <text x="0" y="18" text-anchor="middle" font-size="10" font-weight="700" fill="#0d9488">경기GPT</text>
+    <text x="0" y="34" text-anchor="middle" font-size="9" fill="#374151">지자체 최초 (131억)</text>
+    <text x="0" y="50" text-anchor="middle" font-size="9" fill="#6b7280">2번 사례</text>
+  </g>
+
+  <!-- 사례 3: 2025.11, 하단 (겹침 회피) -->
+  <g transform="translate(220,250)">
+    <circle cx="0" cy="-50" r="8" fill="#0d9488"/>
+    <line x1="0" y1="-42" x2="0" y2="0" stroke="#0d9488" stroke-width="1" stroke-dasharray="2,2"/>
+    <rect x="-65" y="0" width="130" height="60" fill="#0d9488" fill-opacity="0.1" stroke="#0d9488" stroke-width="1" rx="4"/>
+    <text x="0" y="18" text-anchor="middle" font-size="10" font-weight="700" fill="#0d9488">범정부 공통기반</text>
+    <text x="0" y="34" text-anchor="middle" font-size="9" fill="#374151">행정망 AI (90억)</text>
+    <text x="0" y="50" text-anchor="middle" font-size="9" fill="#6b7280">3번 사례</text>
+  </g>
+
+  <!-- 사례 1: 2026.2, 상단 -->
+  <g transform="translate(380,90)">
+    <circle cx="0" cy="110" r="8" fill="#0d9488"/>
+    <line x1="0" y1="100" x2="0" y2="60" stroke="#0d9488" stroke-width="1" stroke-dasharray="2,2"/>
+    <rect x="-65" y="0" width="130" height="60" fill="#0d9488" fill-opacity="0.1" stroke="#0d9488" stroke-width="1" rx="4"/>
+    <text x="0" y="18" text-anchor="middle" font-size="10" font-weight="700" fill="#0d9488">국민신문고 AI</text>
+    <text x="0" y="34" text-anchor="middle" font-size="9" fill="#374151">1,400만 건/년</text>
+    <text x="0" y="50" text-anchor="middle" font-size="9" fill="#6b7280">1번 사례</text>
+  </g>
+
+  <!-- 사례 4: 2026.3, 하단 -->
+  <g transform="translate(540,250)">
+    <circle cx="0" cy="-50" r="8" fill="#0d9488"/>
+    <line x1="0" y1="-42" x2="0" y2="0" stroke="#0d9488" stroke-width="1" stroke-dasharray="2,2"/>
+    <rect x="-65" y="0" width="130" height="60" fill="#0d9488" fill-opacity="0.1" stroke="#0d9488" stroke-width="1" rx="4"/>
+    <text x="0" y="18" text-anchor="middle" font-size="10" font-weight="700" fill="#0d9488">산업부 해외인증</text>
+    <text x="0" y="34" text-anchor="middle" font-size="9" fill="#374151">월 70→210건 (3배)</text>
+    <text x="0" y="50" text-anchor="middle" font-size="9" fill="#6b7280">4번 사례</text>
+  </g>
+</svg>

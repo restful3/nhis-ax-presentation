@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 80 780 240">
+  <defs>
+    <linearGradient id="bg-kpi" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. NHIS (강조) -->
+  <g transform="translate(20,90)">
+    <rect x="0" y="0" width="148" height="220" fill="#0d9488" fill-opacity="0.22" stroke="#0d9488" stroke-width="2.2" rx="8"/>
+    <text x="74" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#0d9488">★ 우리 공단</text>
+    <text x="74" y="42" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">국민건강보험공단</text>
+    <text x="74" y="58" text-anchor="middle" font-size="9" fill="#6b7280">에이전틱 AI 민원상담</text>
+    <line x1="14" y1="68" x2="134" y2="68" stroke="#0d9488" stroke-width="0.6"/>
+    <text x="74" y="92" text-anchor="middle" font-size="11" font-weight="700" fill="#0d9488">처리 범위</text>
+    <text x="74" y="125" text-anchor="middle" font-size="22" font-weight="800" fill="#0d9488">39 → 90%</text>
+    <text x="74" y="148" text-anchor="middle" font-size="9" fill="#374151">2.3배 확대</text>
+    <rect x="10" y="165" width="128" height="44" fill="#0d9488" stroke="#0d9488" stroke-width="0.6" rx="4"/>
+    <text x="74" y="183" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">와이즈넛 수주</text>
+    <text x="74" y="200" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">11억 원</text>
+  </g>
+
+  <!-- 2. 국세청 -->
+  <g transform="translate(178,90)">
+    <rect x="0" y="0" width="148" height="220" fill="url(#bg-kpi)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="74" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#0d9488">국세청</text>
+    <text x="74" y="42" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">AI 국세상담</text>
+    <line x1="14" y1="56" x2="134" y2="56" stroke="#0d9488" stroke-width="0.6"/>
+    <text x="74" y="76" text-anchor="middle" font-size="10" font-weight="600" fill="#374151">통화 성공률</text>
+    <text x="74" y="98" text-anchor="middle" font-size="16" font-weight="800" fill="#0d9488">24 → 98%</text>
+    <text x="74" y="120" text-anchor="middle" font-size="10" font-weight="600" fill="#374151">상담 처리량</text>
+    <text x="74" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#0d9488">2.7배</text>
+    <rect x="10" y="155" width="128" height="54" fill="#0d9488" fill-opacity="0.18" stroke="#0d9488" stroke-width="0.8" rx="4"/>
+    <text x="74" y="172" text-anchor="middle" font-size="9" font-weight="600" fill="#374151">연 운영비용</text>
+    <text x="74" y="195" text-anchor="middle" font-size="14" font-weight="800" fill="#0d9488">80억 → 4억</text>
+  </g>
+
+  <!-- 3. 국민권익위 -->
+  <g transform="translate(336,90)">
+    <rect x="0" y="0" width="148" height="220" fill="url(#bg-kpi)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="74" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#0d9488">국민권익위</text>
+    <text x="74" y="42" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">AI 민원분석</text>
+    <line x1="14" y1="56" x2="134" y2="56" stroke="#0d9488" stroke-width="0.6"/>
+    <text x="74" y="78" text-anchor="middle" font-size="10" fill="#374151">국민신문고와 연계</text>
+    <text x="74" y="95" text-anchor="middle" font-size="9" fill="#6b7280">(사례 1 본체)</text>
+    <text x="74" y="125" text-anchor="middle" font-size="13" font-weight="700" fill="#0d9488">1,400만 건</text>
+    <text x="74" y="143" text-anchor="middle" font-size="10" fill="#374151">연간 민원에 AI</text>
+    <rect x="10" y="158" width="128" height="50" fill="#0d9488" fill-opacity="0.12" stroke="#0d9488" stroke-width="0.6" rx="4"/>
+    <text x="74" y="175" text-anchor="middle" font-size="9" font-weight="600" fill="#0d9488">조직 변화도 동반</text>
+    <text x="74" y="192" text-anchor="middle" font-size="9" fill="#374151">지능데이터담당관 신설</text>
+  </g>
+
+  <!-- 4. NIA -->
+  <g transform="translate(494,90)">
+    <rect x="0" y="0" width="148" height="220" fill="url(#bg-kpi)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="74" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#0d9488">NIA</text>
+    <text x="74" y="42" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">민원상담 어시스턴트</text>
+    <line x1="14" y1="56" x2="134" y2="56" stroke="#0d9488" stroke-width="0.6"/>
+    <text x="74" y="78" text-anchor="middle" font-size="10" font-weight="600" fill="#374151">처리 시간</text>
+    <text x="74" y="100" text-anchor="middle" font-size="14" font-weight="800" fill="#0d9488">일 42분</text>
+    <text x="74" y="118" text-anchor="middle" font-size="10" font-weight="600" fill="#374151">단축</text>
+    <rect x="10" y="135" width="128" height="74" fill="#0d9488" fill-opacity="0.12" stroke="#0d9488" stroke-width="0.6" rx="4"/>
+    <text x="74" y="155" text-anchor="middle" font-size="9" font-weight="600" fill="#374151">처리량</text>
+    <text x="74" y="178" text-anchor="middle" font-size="13" font-weight="700" fill="#0d9488">+10%</text>
+    <text x="74" y="198" text-anchor="middle" font-size="9" fill="#6b7280">공공기관 표준 모델</text>
+  </g>
+
+  <!-- 5. 한국지역정보개발원 -->
+  <g transform="translate(652,90)">
+    <rect x="0" y="0" width="138" height="220" fill="url(#bg-kpi)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="69" y="22" text-anchor="middle" font-size="10" font-weight="700" fill="#0d9488">한국지역정보</text>
+    <text x="69" y="36" text-anchor="middle" font-size="10" font-weight="700" fill="#0d9488">개발원</text>
+    <text x="69" y="56" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">지방재정 지능화</text>
+    <line x1="14" y1="68" x2="124" y2="68" stroke="#0d9488" stroke-width="0.6"/>
+    <text x="69" y="92" text-anchor="middle" font-size="10" fill="#374151">재정 분석·예측</text>
+    <text x="69" y="108" text-anchor="middle" font-size="10" fill="#374151">자동화</text>
+    <rect x="10" y="125" width="118" height="84" fill="#0d9488" fill-opacity="0.12" stroke="#0d9488" stroke-width="0.6" rx="4"/>
+    <text x="69" y="146" text-anchor="middle" font-size="9" font-weight="600" fill="#0d9488">5개 기관 = 같은 줄</text>
+    <text x="69" y="170" text-anchor="middle" font-size="9" fill="#374151">공단·국세청·</text>
+    <text x="69" y="184" text-anchor="middle" font-size="9" fill="#374151">권익위·NIA·</text>
+    <text x="69" y="198" text-anchor="middle" font-size="9" fill="#374151">한국지역정보</text>
+  </g>
+</svg>

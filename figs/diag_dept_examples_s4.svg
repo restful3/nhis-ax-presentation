@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 52 880 296">
+  <defs>
+    <linearGradient id="dept-1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="dept-2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="dept-3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="dept-4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card 1: 자격관리 -->
+  <g transform="translate(20,60)">
+    <rect x="0" y="0" width="200" height="280" fill="url(#dept-1)" stroke="#0d9488" stroke-width="2" rx="8"/>
+    <rect x="0" y="0" width="200" height="40" fill="#0d9488" rx="8"/>
+    <rect x="0" y="32" width="200" height="8" fill="#0d9488"/>
+    <text x="100" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">자격관리</text>
+
+    <text x="14" y="62" font-size="10" font-weight="600" fill="#0f766e">분류 데이터</text>
+    <text x="14" y="78" font-size="10" fill="#1f2937">자격 변동 사유</text>
+    <text x="14" y="92" font-size="10" fill="#1f2937">(취득·상실·전환)</text>
+
+    <line x1="14" y1="106" x2="186" y2="106" stroke="#0d9488" stroke-width="0.5" stroke-dasharray="3,3"/>
+
+    <text x="14" y="124" font-size="10" font-weight="600" fill="#0f766e">보고서로 풀어내기</text>
+    <text x="14" y="142" font-size="9" fill="#1f2937">월별 트렌드</text>
+    <text x="14" y="156" font-size="9" fill="#1f2937">+ 공통 실수 패턴</text>
+    <text x="14" y="170" font-size="9" fill="#1f2937">+ 안내문 개선 권고</text>
+
+    <line x1="14" y1="184" x2="186" y2="184" stroke="#0d9488" stroke-width="0.5" stroke-dasharray="3,3"/>
+
+    <text x="14" y="202" font-size="10" font-weight="600" fill="#0f766e">초안 템플릿 예시</text>
+    <text x="14" y="220" font-size="8" fill="#374151">자격 변동 분류 결과를</text>
+    <text x="14" y="232" font-size="8" fill="#374151">일회성 채팅에 파일 첨부</text>
+    <text x="14" y="244" font-size="8" fill="#374151">→ 보고서 초안 요청</text>
+    <text x="14" y="262" font-size="9" fill="#0f766e" font-style="italic">→ 시연 템플릿 그대로</text>
+  </g>
+
+  <!-- Card 2: 보험료 (오늘 실습) -->
+  <g transform="translate(230,60)">
+    <rect x="0" y="0" width="200" height="280" fill="url(#dept-2)" stroke="#0d9488" stroke-width="2" rx="8"/>
+    <rect x="0" y="0" width="200" height="40" fill="#0d9488" rx="8"/>
+    <rect x="0" y="32" width="200" height="8" fill="#0d9488"/>
+    <text x="100" y="26" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">보험료 (오늘 실습)</text>
+
+    <text x="14" y="62" font-size="10" font-weight="600" fill="#0f766e">분류 데이터</text>
+    <text x="14" y="78" font-size="10" fill="#1f2937">체납 4유형</text>
+    <text x="14" y="92" font-size="10" fill="#1f2937">(오늘 실습)</text>
+
+    <line x1="14" y1="106" x2="186" y2="106" stroke="#0d9488" stroke-width="0.5" stroke-dasharray="3,3"/>
+
+    <text x="14" y="124" font-size="10" font-weight="600" fill="#0f766e">보고서로 풀어내기</text>
+    <text x="14" y="142" font-size="9" fill="#1f2937">유형별 회수 전략</text>
+    <text x="14" y="156" font-size="9" fill="#1f2937">+ 자동 안내 시점</text>
+    <text x="14" y="170" font-size="9" fill="#1f2937">+ 우선순위 권고</text>
+
+    <line x1="14" y1="184" x2="186" y2="184" stroke="#0d9488" stroke-width="0.5" stroke-dasharray="3,3"/>
+
+    <text x="14" y="202" font-size="10" font-weight="600" fill="#0f766e">초안 템플릿 예시</text>
+    <text x="14" y="220" font-size="8" fill="#374151">체납 분류 결과를</text>
+    <text x="14" y="232" font-size="8" fill="#374151">일회성 채팅에 파일 첨부</text>
+    <text x="14" y="244" font-size="8" fill="#374151">→ 보고서 초안 요청</text>
+    <text x="14" y="262" font-size="9" fill="#0f766e" font-style="italic">→ §4.4 실습 본 그것</text>
+  </g>
+
+  <!-- Card 3: 급여관리 -->
+  <g transform="translate(440,60)">
+    <rect x="0" y="0" width="200" height="280" fill="url(#dept-3)" stroke="#0d9488" stroke-width="2" rx="8"/>
+    <rect x="0" y="0" width="200" height="40" fill="#0d9488" rx="8"/>
+    <rect x="0" y="32" width="200" height="8" fill="#0d9488"/>
+    <text x="100" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">급여관리</text>
+
+    <text x="14" y="62" font-size="10" font-weight="600" fill="#0f766e">분류 데이터</text>
+    <text x="14" y="78" font-size="10" fill="#1f2937">부당청구 유형</text>
+    <text x="14" y="92" font-size="10" fill="#1f2937">(반복·고가·중복)</text>
+
+    <line x1="14" y1="106" x2="186" y2="106" stroke="#0d9488" stroke-width="0.5" stroke-dasharray="3,3"/>
+
+    <text x="14" y="124" font-size="10" font-weight="600" fill="#0f766e">보고서로 풀어내기</text>
+    <text x="14" y="142" font-size="9" fill="#1f2937">패턴 분석</text>
+    <text x="14" y="156" font-size="9" fill="#1f2937">+ 적발 우선순위</text>
+    <text x="14" y="170" font-size="9" fill="#1f2937">+ 사전 차단 권고</text>
+
+    <line x1="14" y1="184" x2="186" y2="184" stroke="#0d9488" stroke-width="0.5" stroke-dasharray="3,3"/>
+
+    <text x="14" y="202" font-size="10" font-weight="600" fill="#0f766e">초안 템플릿 예시</text>
+    <text x="14" y="220" font-size="8" fill="#374151">부당청구 분류 결과를</text>
+    <text x="14" y="232" font-size="8" fill="#374151">일회성 채팅에 파일 첨부</text>
+    <text x="14" y="244" font-size="8" fill="#374151">→ 보고서 초안 요청</text>
+    <text x="14" y="262" font-size="9" fill="#0f766e" font-style="italic">→ 템플릿만 동일</text>
+  </g>
+
+  <!-- Card 4: 민원 (오늘 시연) -->
+  <g transform="translate(650,60)">
+    <rect x="0" y="0" width="200" height="280" fill="url(#dept-4)" stroke="#0d9488" stroke-width="2" rx="8"/>
+    <rect x="0" y="0" width="200" height="40" fill="#0d9488" rx="8"/>
+    <rect x="0" y="32" width="200" height="8" fill="#0d9488"/>
+    <text x="100" y="26" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">민원 (오늘 시연)</text>
+
+    <text x="14" y="62" font-size="10" font-weight="600" fill="#0f766e">분류 데이터</text>
+    <text x="14" y="78" font-size="10" fill="#1f2937">민원 5유형</text>
+    <text x="14" y="92" font-size="10" fill="#1f2937">(오늘 시연)</text>
+
+    <line x1="14" y1="106" x2="186" y2="106" stroke="#0d9488" stroke-width="0.5" stroke-dasharray="3,3"/>
+
+    <text x="14" y="124" font-size="10" font-weight="600" fill="#0f766e">보고서로 풀어내기</text>
+    <text x="14" y="142" font-size="9" fill="#1f2937">민원 패턴 분석</text>
+    <text x="14" y="156" font-size="9" fill="#1f2937">+ FAQ 개선 권고</text>
+    <text x="14" y="170" font-size="9" fill="#1f2937">+ 매뉴얼 보강 권고</text>
+
+    <line x1="14" y1="184" x2="186" y2="184" stroke="#0d9488" stroke-width="0.5" stroke-dasharray="3,3"/>
+
+    <text x="14" y="202" font-size="10" font-weight="600" fill="#0f766e">초안 템플릿 예시</text>
+    <text x="14" y="220" font-size="8" fill="#374151">민원 분류 결과를</text>
+    <text x="14" y="232" font-size="8" fill="#374151">일회성 채팅에 파일 첨부</text>
+    <text x="14" y="244" font-size="8" fill="#374151">→ 보고서 초안 요청</text>
+    <text x="14" y="262" font-size="9" fill="#0f766e" font-style="italic">→ §4.3 시연 본 그것</text>
+  </g>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="34 22 752 288">
+  <defs>
+    <linearGradient id="bg-5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 의사결정자의 다섯 질문 -->
+  <rect x="40" y="28" width="105" height="56" fill="#f0fdfa" stroke="#5eead4" stroke-width="1.2" rx="6"/>
+  <text x="92.5" y="42" text-anchor="middle" font-size="12" font-weight="700" fill="#0d9488">①</text>
+  <text x="92.5" y="59" text-anchor="middle" font-size="9" fill="#374151">무슨</text>
+  <text x="92.5" y="72" text-anchor="middle" font-size="9" fill="#374151">업무에</text>
+
+  <rect x="155" y="28" width="105" height="56" fill="#f0fdfa" stroke="#5eead4" stroke-width="1.2" rx="6"/>
+  <text x="207.5" y="42" text-anchor="middle" font-size="12" font-weight="700" fill="#0d9488">②</text>
+  <text x="207.5" y="59" text-anchor="middle" font-size="9" fill="#374151">지금 얼마나</text>
+  <text x="207.5" y="72" text-anchor="middle" font-size="9" fill="#374151">부담인데</text>
+
+  <rect x="300" y="28" width="105" height="56" fill="#f0fdfa" stroke="#5eead4" stroke-width="1.2" rx="6"/>
+  <text x="352.5" y="42" text-anchor="middle" font-size="12" font-weight="700" fill="#0d9488">③</text>
+  <text x="352.5" y="59" text-anchor="middle" font-size="9" fill="#374151">무엇이 어떻게</text>
+  <text x="352.5" y="72" text-anchor="middle" font-size="9" fill="#374151">바뀌나</text>
+
+  <rect x="415" y="28" width="105" height="56" fill="#f0fdfa" stroke="#5eead4" stroke-width="1.2" rx="6"/>
+  <text x="467.5" y="42" text-anchor="middle" font-size="12" font-weight="700" fill="#0d9488">④</text>
+  <text x="467.5" y="59" text-anchor="middle" font-size="9" fill="#374151">사람 검수는</text>
+  <text x="467.5" y="72" text-anchor="middle" font-size="9" fill="#374151">어디에 두나 (HITL)</text>
+
+  <rect x="595" y="28" width="150" height="56" fill="#f0fdfa" stroke="#5eead4" stroke-width="1.2" rx="6"/>
+  <text x="670" y="42" text-anchor="middle" font-size="12" font-weight="700" fill="#0d9488">⑤</text>
+  <text x="670" y="59" text-anchor="middle" font-size="9" fill="#374151">그래서</text>
+  <text x="670" y="72" text-anchor="middle" font-size="9" fill="#374151">얼마나 좋아지나</text>
+
+  <!-- 다섯 질문 → 3요소 매핑 브래킷 -->
+  <g stroke="#0d9488" stroke-width="1.5" fill="none">
+    <path d="M92.5 84 V95 H207.5 V84 M150 95 V104"/>
+    <path d="M352.5 84 V95 H467.5 V84 M410 95 V104"/>
+    <path d="M670 84 V104"/>
+  </g>
+  <g fill="#0d9488" stroke="none">
+    <polygon points="150,111 145,103 155,103"/>
+    <polygon points="410,111 405,103 415,103"/>
+    <polygon points="670,111 665,103 675,103"/>
+  </g>
+
+  <!-- 3요소 카드 -->
+  <g transform="translate(40,110)">
+    <rect x="0" y="0" width="220" height="170" fill="url(#bg-5)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="110" y="32" text-anchor="middle" font-size="13" font-weight="700" fill="#0d9488">① AS-IS (현재)</text>
+    <text x="110" y="60" text-anchor="middle" font-size="14" font-weight="600" fill="#1f2937">"지금 어떻게"</text>
+    <text x="110" y="88" text-anchor="middle" font-size="11" fill="#374151">건수 / 시간 / 인력</text>
+    <text x="110" y="106" text-anchor="middle" font-size="11" fill="#374151">+ 문제점</text>
+    <text x="110" y="138" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">→ 수치 한 개 필수</text>
+    <text x="110" y="154" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">  (기대효과 베이스라인)</text>
+  </g>
+  <line x1="270" y1="195" x2="289" y2="195" stroke="#0d9488" stroke-width="2"/>
+  <polygon points="297,195 289,191 289,199" fill="#0d9488" stroke="none"/>
+  <g transform="translate(300,110)">
+    <rect x="0" y="0" width="220" height="170" fill="url(#bg-5)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="110" y="32" text-anchor="middle" font-size="13" font-weight="700" fill="#0d9488">② TO-BE (미래)</text>
+    <text x="110" y="60" text-anchor="middle" font-size="14" font-weight="600" fill="#1f2937">"어떻게 바꿀까"</text>
+    <text x="110" y="88" text-anchor="middle" font-size="11" fill="#374151">분류 AI</text>
+    <text x="110" y="106" text-anchor="middle" font-size="11" fill="#374151">+ 문서 AI</text>
+    <text x="110" y="124" text-anchor="middle" font-size="11" fill="#374151">+ HITL 1~2곳</text>
+    <text x="110" y="156" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">→ §3 Gem 재사용·§4 템플릿 박제</text>
+  </g>
+  <line x1="530" y1="195" x2="549" y2="195" stroke="#0d9488" stroke-width="2"/>
+  <polygon points="557,195 549,191 549,199" fill="#0d9488" stroke="none"/>
+  <g transform="translate(560,110)">
+    <rect x="0" y="0" width="220" height="170" fill="url(#bg-5)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="110" y="32" text-anchor="middle" font-size="13" font-weight="700" fill="#0d9488">③ 기대효과 (차이)</text>
+    <text x="110" y="60" text-anchor="middle" font-size="14" font-weight="600" fill="#1f2937">"얼마나 좋아져"</text>
+    <text x="110" y="88" text-anchor="middle" font-size="11" fill="#374151">정량: X분 → Y분</text>
+    <text x="110" y="106" text-anchor="middle" font-size="11" fill="#374151">정성: 일관성·만족도</text>
+    <text x="110" y="138" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">→ AS-IS 수치 ×</text>
+    <text x="110" y="154" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">  처리 건수 = 총 절감</text>
+  </g>
+
+  <!-- 참고 주석 -->
+  <text x="410" y="300" text-anchor="middle" font-size="9" fill="#6b7280" font-style="italic">참고 — 다섯 질문과 결이 같은 제안 평가 프레임워크: Heilmeier Catechism (DARPA)</text>
+</svg>

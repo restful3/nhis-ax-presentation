@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="25 52 750 193">
+  <defs>
+    <marker id="demo1-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0d9488"/>
+    </marker>
+  </defs>
+  <!-- Stage 1 -->
+  <g transform="translate(30, 60)">
+    <rect width="220" height="180" fill="#fff" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="110" y="30" text-anchor="middle" font-size="12" font-weight="700" fill="#0d9488">1차 — 막연한 질문</text>
+    <line x1="20" y1="42" x2="200" y2="42" stroke="#d1d5db" stroke-width="1"/>
+    <text x="110" y="70" text-anchor="middle" font-size="13" font-style="italic" font-weight="600" fill="#1f2937">"이 민원들 뭐야?"</text>
+    <text x="110" y="94" text-anchor="middle" font-size="10" fill="#9ca3af">데이터만 붙여넣고 한 줄</text>
+    <text x="110" y="122" text-anchor="middle" font-size="10" fill="#6b7280">결과 깊이</text>
+    <g transform="translate(60, 130)">
+      <rect width="16" height="14" fill="#0d9488" rx="2"/>
+      <rect x="22" width="16" height="14" fill="#e5e7eb" rx="2"/>
+      <rect x="44" width="16" height="14" fill="#e5e7eb" rx="2"/>
+      <rect x="66" width="16" height="14" fill="#e5e7eb" rx="2"/>
+      <rect x="88" width="16" height="14" fill="#e5e7eb" rx="2"/>
+    </g>
+    <text x="110" y="170" text-anchor="middle" font-size="12" font-weight="700" fill="#dc2626">피상적 답변</text>
+  </g>
+
+  <line x1="255" y1="150" x2="285" y2="150" stroke="#0d9488" stroke-width="2" marker-end="url(#demo1-arrow)"/>
+  <text x="270" y="134" text-anchor="middle" font-size="9" fill="#0d9488" font-weight="600">+ 한 줄</text>
+
+  <!-- Stage 2 -->
+  <g transform="translate(290, 60)">
+    <rect width="220" height="180" fill="#fff" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="110" y="30" text-anchor="middle" font-size="12" font-weight="700" fill="#0d9488">2차 — 지시 구체화</text>
+    <line x1="20" y1="42" x2="200" y2="42" stroke="#d1d5db" stroke-width="1"/>
+    <text x="110" y="64" text-anchor="middle" font-size="12" font-style="italic" font-weight="600" fill="#1f2937">"5개 주제로 요약,</text>
+    <text x="110" y="82" text-anchor="middle" font-size="12" font-style="italic" font-weight="600" fill="#1f2937">키워드 3개씩"</text>
+    <text x="110" y="102" text-anchor="middle" font-size="10" fill="#9ca3af">+ 개수·항목 명시</text>
+    <text x="110" y="122" text-anchor="middle" font-size="10" fill="#6b7280">결과 깊이</text>
+    <g transform="translate(60, 130)">
+      <rect width="16" height="14" fill="#0d9488" rx="2"/>
+      <rect x="22" width="16" height="14" fill="#0d9488" rx="2"/>
+      <rect x="44" width="16" height="14" fill="#0d9488" rx="2"/>
+      <rect x="66" width="16" height="14" fill="#e5e7eb" rx="2"/>
+      <rect x="88" width="16" height="14" fill="#e5e7eb" rx="2"/>
+    </g>
+    <text x="110" y="170" text-anchor="middle" font-size="12" font-weight="700" fill="#d97706">패턴이 보임</text>
+  </g>
+
+  <line x1="515" y1="150" x2="545" y2="150" stroke="#0d9488" stroke-width="2" marker-end="url(#demo1-arrow)"/>
+  <text x="530" y="134" text-anchor="middle" font-size="9" fill="#0d9488" font-weight="600">+ 한 줄</text>
+
+  <!-- Stage 3 -->
+  <g transform="translate(550, 60)">
+    <rect width="220" height="180" fill="#fff" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="110" y="30" text-anchor="middle" font-size="12" font-weight="700" fill="#0d9488">3차 — 형식 + 인사이트</text>
+    <line x1="20" y1="42" x2="200" y2="42" stroke="#d1d5db" stroke-width="1"/>
+    <text x="110" y="64" text-anchor="middle" font-size="12" font-style="italic" font-weight="600" fill="#1f2937">"표로 정리 +</text>
+    <text x="110" y="82" text-anchor="middle" font-size="12" font-style="italic" font-weight="600" fill="#1f2937">어려운 건 짚어줘"</text>
+    <text x="110" y="102" text-anchor="middle" font-size="10" fill="#9ca3af">+ 형식·자기 한계</text>
+    <text x="110" y="122" text-anchor="middle" font-size="10" fill="#6b7280">결과 깊이</text>
+    <g transform="translate(60, 130)">
+      <rect width="16" height="14" fill="#0d9488" rx="2"/>
+      <rect x="22" width="16" height="14" fill="#0d9488" rx="2"/>
+      <rect x="44" width="16" height="14" fill="#0d9488" rx="2"/>
+      <rect x="66" width="16" height="14" fill="#0d9488" rx="2"/>
+      <rect x="88" width="16" height="14" fill="#0d9488" rx="2"/>
+    </g>
+    <text x="110" y="170" text-anchor="middle" font-size="12" font-weight="700" fill="#059669">깊이 있는 분석</text>
+  </g>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="30 62 720 376">
+  <defs>
+    <linearGradient id="bad-bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#dc2626" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#dc2626" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="good-bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <text x="50" y="78" font-size="12" font-weight="700" fill="#dc2626">❌ 잘못된 이해</text>
+  <text x="410" y="78" font-size="12" font-weight="700" fill="#0d9488">✅ 올바른 이해</text>
+
+  <g transform="translate(40,90)">
+    <rect x="0" y="0" width="340" height="60" fill="url(#bad-bg)" stroke="#dc2626" stroke-width="1.2" rx="6"/>
+    <text x="14" y="22" font-size="11" font-weight="700" fill="#dc2626">1.</text>
+    <text x="32" y="22" font-size="11" font-weight="600" fill="#1f2937">"AX는 새 시스템 구축이다"</text>
+    <text x="14" y="42" font-size="10" fill="#6b7280">우리도 경기GPT 같은 거 만들어야 하나?</text>
+    <text x="14" y="55" font-size="9" fill="#dc2626" font-style="italic">→ 5세션 기획안이 과대해짐</text>
+    <rect x="370" y="0" width="340" height="60" fill="url(#good-bg)" stroke="#0d9488" stroke-width="1.2" rx="6"/>
+    <text x="384" y="22" font-size="11" font-weight="700" fill="#0d9488">→</text>
+    <text x="402" y="22" font-size="11" font-weight="600" fill="#1f2937">외부 AI 도구를 업무에 끼워 넣기부터</text>
+    <text x="384" y="42" font-size="10" fill="#374151">시스템 구축은 효과 검증 후의 다음 단계</text>
+    <text x="384" y="55" font-size="9" fill="#0d9488" font-style="italic">"AI 인턴을 동거시키는 첫 시도"</text>
+  </g>
+
+  <g transform="translate(40,160)">
+    <rect x="0" y="0" width="340" height="60" fill="url(#bad-bg)" stroke="#dc2626" stroke-width="1.2" rx="6"/>
+    <text x="14" y="22" font-size="11" font-weight="700" fill="#dc2626">2.</text>
+    <text x="32" y="22" font-size="11" font-weight="600" fill="#1f2937">"AI가 100% 자동으로 일을 끝낸다"</text>
+    <text x="14" y="42" font-size="10" fill="#6b7280">보고서·안내문을 자동 발송까지 해주면 되겠네</text>
+    <text x="14" y="55" font-size="9" fill="#dc2626" font-style="italic">→ 4세션 초안을 그대로 외부 발송 시도</text>
+    <rect x="370" y="0" width="340" height="60" fill="url(#good-bg)" stroke="#0d9488" stroke-width="1.2" rx="6"/>
+    <text x="384" y="22" font-size="11" font-weight="700" fill="#0d9488">→</text>
+    <text x="402" y="22" font-size="11" font-weight="600" fill="#1f2937">결재선의 마지막은 사람 (HITL)</text>
+    <text x="384" y="42" font-size="10" fill="#374151">국민신문고·산업부·공단 모두 동일</text>
+    <text x="384" y="55" font-size="9" fill="#0d9488" font-style="italic">초안은 검수 대상이지 발송본이 아님</text>
+  </g>
+
+  <g transform="translate(40,230)">
+    <rect x="0" y="0" width="340" height="60" fill="url(#bad-bg)" stroke="#dc2626" stroke-width="1.2" rx="6"/>
+    <text x="14" y="22" font-size="11" font-weight="700" fill="#dc2626">3.</text>
+    <text x="32" y="22" font-size="11" font-weight="600" fill="#1f2937">"AI는 정확하니 신뢰도 검토 불필요"</text>
+    <text x="14" y="42" font-size="10" fill="#6b7280">AI가 분류했으면 맞겠지</text>
+    <text x="14" y="55" font-size="9" fill="#dc2626" font-style="italic">→ 3세션 분류 결과를 무비판 수용</text>
+    <rect x="370" y="0" width="340" height="60" fill="url(#good-bg)" stroke="#0d9488" stroke-width="1.2" rx="6"/>
+    <text x="384" y="22" font-size="11" font-weight="700" fill="#0d9488">→</text>
+    <text x="402" y="22" font-size="11" font-weight="600" fill="#1f2937">신뢰도 (상/중/하) 동시 출력</text>
+    <text x="384" y="42" font-size="10" fill="#374151">신뢰도 "하" 인 건은 사람이 한 번 더 확인</text>
+    <text x="384" y="55" font-size="9" fill="#0d9488" font-style="italic">이게 HITL의 실무적 적용</text>
+  </g>
+
+  <g transform="translate(40,300)">
+    <rect x="0" y="0" width="340" height="60" fill="url(#bad-bg)" stroke="#dc2626" stroke-width="1.2" rx="6"/>
+    <text x="14" y="22" font-size="11" font-weight="700" fill="#dc2626">4.</text>
+    <text x="32" y="22" font-size="11" font-weight="600" fill="#1f2937">"AX = 코딩 = IT 부서 일"</text>
+    <text x="14" y="42" font-size="10" fill="#6b7280">코딩 못 하니까 어차피 IT 부서 일</text>
+    <text x="14" y="55" font-size="9" fill="#dc2626" font-style="italic">→ 교육을 남의 일로 듣게 됨</text>
+    <rect x="370" y="0" width="340" height="60" fill="url(#good-bg)" stroke="#0d9488" stroke-width="1.2" rx="6"/>
+    <text x="384" y="22" font-size="11" font-weight="700" fill="#0d9488">→</text>
+    <text x="402" y="22" font-size="11" font-weight="600" fill="#1f2937">일반 직원이 프롬프트·검증을 담당</text>
+    <text x="384" y="42" font-size="10" fill="#374151">업무 맥락을 AI에게 알려주는 게 결정적</text>
+    <text x="384" y="55" font-size="9" fill="#0d9488" font-style="italic">코드 작성보다 훨씬 중요한 역할</text>
+  </g>
+
+  <g transform="translate(40,370)">
+    <rect x="0" y="0" width="340" height="60" fill="url(#bad-bg)" stroke="#dc2626" stroke-width="1.2" rx="6"/>
+    <text x="14" y="22" font-size="11" font-weight="700" fill="#dc2626">5.</text>
+    <text x="32" y="22" font-size="11" font-weight="600" fill="#1f2937">"세션 2 채팅과 세션 3·4 Gem은 별개 도구"</text>
+    <text x="14" y="42" font-size="10" fill="#6b7280">채팅 따로, Gem 따로 새로 배워야 하네</text>
+    <text x="14" y="55" font-size="9" fill="#dc2626" font-style="italic">→ 같은 화면을 다른 방식으로 쓰는 점을 놓침</text>
+    <rect x="370" y="0" width="340" height="60" fill="url(#good-bg)" stroke="#0d9488" stroke-width="1.2" rx="6"/>
+    <text x="384" y="22" font-size="11" font-weight="700" fill="#0d9488">→</text>
+    <text x="402" y="22" font-size="11" font-weight="600" fill="#1f2937">같은 Gemini Web, 활용 방식만 달라진다</text>
+    <text x="384" y="42" font-size="10" fill="#374151">일회성 채팅 → Gem 활성 채팅으로 깊어질 뿐</text>
+    <text x="384" y="55" font-size="9" fill="#0d9488" font-style="italic">"인턴 책상에 작업서를 붙여둔다"</text>
+  </g>
+</svg>

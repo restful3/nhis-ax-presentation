@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 48 880 296">
+  <defs>
+    <linearGradient id="bg-sec" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="bg-boost" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6b7280" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#6b7280" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Section label: 본문 4섹션 -->
+  <text x="30" y="64" font-size="11" font-weight="700" fill="#0d9488">본문 4섹션 — 보고서 표준 골격</text>
+
+  <!-- 본문 4섹션: one row of 4 boxes -->
+  <g transform="translate(20,72)">
+    <rect x="0" y="0" width="205" height="118" fill="url(#bg-sec)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="102" y="26" text-anchor="middle" font-size="11" font-weight="700" fill="#0d9488">## 1. Executive Summary</text>
+    <line x1="20" y1="36" x2="185" y2="36" stroke="#0d9488" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="102" y="60" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1f2937">결론 먼저</text>
+    <text x="102" y="84" text-anchor="middle" font-size="10" fill="#374151">핵심 수치·핵심 권고를</text>
+    <text x="102" y="100" text-anchor="middle" font-size="10" fill="#374151">맨 앞에 3~5줄</text>
+  </g>
+
+  <g transform="translate(238,72)">
+    <rect x="0" y="0" width="205" height="118" fill="url(#bg-sec)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="102" y="26" text-anchor="middle" font-size="11" font-weight="700" fill="#0d9488">## 2. 유형별 분석</text>
+    <line x1="20" y1="36" x2="185" y2="36" stroke="#0d9488" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="102" y="60" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1f2937">각 유형 150~200자</text>
+    <text x="102" y="84" text-anchor="middle" font-size="10" fill="#374151">유형마다 설명 +</text>
+    <text x="102" y="100" text-anchor="middle" font-size="10" fill="#374151">대표 사례 1건</text>
+  </g>
+
+  <g transform="translate(456,72)">
+    <rect x="0" y="0" width="205" height="118" fill="url(#bg-sec)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="102" y="26" text-anchor="middle" font-size="11" font-weight="700" fill="#0d9488">## 3. 통계 요약</text>
+    <line x1="20" y1="36" x2="185" y2="36" stroke="#0d9488" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="102" y="60" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1f2937">유형별 빈도표</text>
+    <text x="102" y="84" text-anchor="middle" font-size="10" fill="#374151">건수·비율을</text>
+    <text x="102" y="100" text-anchor="middle" font-size="10" fill="#374151">한 표로 정리</text>
+  </g>
+
+  <g transform="translate(674,72)">
+    <rect x="0" y="0" width="205" height="118" fill="url(#bg-sec)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="102" y="26" text-anchor="middle" font-size="11" font-weight="700" fill="#0d9488">## 4. 권고사항</text>
+    <line x1="20" y1="36" x2="185" y2="36" stroke="#0d9488" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="102" y="60" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1f2937">액션 3~5개</text>
+    <text x="102" y="84" text-anchor="middle" font-size="10" fill="#374151">실행 항목 +</text>
+    <text x="102" y="100" text-anchor="middle" font-size="10" fill="#374151">우선순위</text>
+  </g>
+
+  <!-- connector: section to boost -->
+  <line x1="558" y1="190" x2="558" y2="214" stroke="#6b7280" stroke-width="2" stroke-dasharray="3,3"/>
+  <polygon points="553,214 563,214 558,223" fill="#6b7280"/>
+  <line x1="776" y1="190" x2="776" y2="214" stroke="#6b7280" stroke-width="2" stroke-dasharray="3,3"/>
+  <polygon points="771,214 781,214 776,223" fill="#6b7280"/>
+
+  <!-- Section label: 보강 2가지 -->
+  <text x="465" y="234" font-size="11" font-weight="700" fill="#374151">보강 2가지 — 본문 4섹션에 차례로 더함</text>
+
+  <!-- 보강 2가지: 2 boxes, amber, visually distinct -->
+  <g transform="translate(456,242)">
+    <rect x="0" y="0" width="205" height="92" fill="url(#bg-boost)" stroke="#6b7280" stroke-width="2" rx="8"/>
+    <text x="102" y="26" text-anchor="middle" font-size="11.5" font-weight="700" fill="#374151">웹 검색 외부 근거</text>
+    <text x="102" y="50" text-anchor="middle" font-size="10" fill="#1f2937">## 4 권고에 출처 URL</text>
+    <text x="102" y="66" text-anchor="middle" font-size="10" fill="#1f2937">각주를 붙임</text>
+    <text x="102" y="83" text-anchor="middle" font-size="9" fill="#6b7280">권고 신뢰도 1차 검증</text>
+  </g>
+
+  <g transform="translate(674,242)">
+    <rect x="0" y="0" width="205" height="92" fill="url(#bg-boost)" stroke="#6b7280" stroke-width="2" rx="8"/>
+    <text x="102" y="26" text-anchor="middle" font-size="11.5" font-weight="700" fill="#374151">Canvas 편집창</text>
+    <text x="102" y="50" text-anchor="middle" font-size="10" fill="#1f2937">본문·차트 초안을 편집</text>
+    <text x="102" y="66" text-anchor="middle" font-size="10" fill="#1f2937">가능한 문서로 정돈</text>
+    <text x="102" y="83" text-anchor="middle" font-size="9" fill="#6b7280">우측 편집창에서 검수</text>
+  </g>
+</svg>

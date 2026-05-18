@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300">
+  <defs>
+    <linearGradient id="cr-card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card 1: 웹 검색 -->
+  <g transform="translate(15,18)">
+    <rect x="0" y="0" width="410" height="264" fill="url(#cr-card)" stroke="#0d9488" stroke-width="2" rx="12"/>
+
+    <!-- icon: magnifying glass (웹 검색) -->
+    <circle cx="44" cy="44" r="25" fill="#0d9488"/>
+    <circle cx="40" cy="40" r="10" fill="none" stroke="#ffffff" stroke-width="3.4"/>
+    <line x1="47.1" y1="47.1" x2="55" y2="55" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- title -->
+    <text x="84" y="40" font-size="17" font-weight="700" fill="#0f766e">웹 검색</text>
+    <text x="84" y="58" font-size="10.5" fill="#115e59">웹에서 근거를 찾아 정리하는 부탁</text>
+
+    <line x1="22" y1="80" x2="388" y2="80" stroke="#0d9488" stroke-width="0.6" stroke-dasharray="3,3"/>
+
+    <!-- 하는 일 -->
+    <text x="24" y="106" font-size="11" font-weight="700" fill="#0f766e">하는 일</text>
+    <text x="24" y="128" font-size="12.5" fill="#1f2937">권고의 외부 근거를 웹에서</text>
+    <text x="24" y="147" font-size="12.5" fill="#1f2937">찾아 정리</text>
+
+    <!-- 산출물 -->
+    <rect x="22" y="170" width="366" height="74" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.2" rx="6"/>
+    <text x="40" y="193" font-size="10" font-weight="700" fill="#0f766e">산출물</text>
+    <text x="40" y="219" font-size="13" font-weight="600" fill="#115e59">출처 URL이 달린 근거 정리</text>
+  </g>
+
+  <!-- Card 2: Canvas -->
+  <g transform="translate(455,18)">
+    <rect x="0" y="0" width="410" height="264" fill="url(#cr-card)" stroke="#0d9488" stroke-width="2" rx="12"/>
+
+    <!-- icon: split editor panel (좌 채팅 / 우 편집창) -->
+    <circle cx="44" cy="44" r="25" fill="#0d9488"/>
+    <rect x="30" y="33" width="28" height="22" rx="2.5" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <line x1="40" y1="33" x2="40" y2="55" stroke="#ffffff" stroke-width="1.6"/>
+    <line x1="33.5" y1="40" x2="36.8" y2="40" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"/>
+    <line x1="33.5" y1="46" x2="36.8" y2="46" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"/>
+    <line x1="43.5" y1="39" x2="54.2" y2="39" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"/>
+    <line x1="43.5" y1="44" x2="54.2" y2="44" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"/>
+    <line x1="43.5" y1="49" x2="50" y2="49" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"/>
+
+    <!-- title -->
+    <text x="84" y="40" font-size="17" font-weight="700" fill="#0f766e">Canvas</text>
+    <text x="84" y="58" font-size="10.5" fill="#115e59">보고서가 우측 편집창으로 열리는 모드</text>
+
+    <line x1="22" y1="80" x2="388" y2="80" stroke="#0d9488" stroke-width="0.6" stroke-dasharray="3,3"/>
+
+    <!-- 하는 일 -->
+    <text x="24" y="106" font-size="11" font-weight="700" fill="#0f766e">하는 일</text>
+    <text x="24" y="128" font-size="12.5" fill="#1f2937">보고서를 4섹션 문서로 완성하고</text>
+    <text x="24" y="147" font-size="12.5" fill="#1f2937">커서 놓고 직접 편집·검수</text>
+
+    <!-- 산출물 -->
+    <rect x="22" y="170" width="366" height="74" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.2" rx="6"/>
+    <text x="40" y="193" font-size="10" font-weight="700" fill="#0f766e">산출물</text>
+    <text x="40" y="219" font-size="13" font-weight="600" fill="#115e59">본문 4섹션 + 통계 차트가 한 화면에</text>
+  </g>
+</svg>

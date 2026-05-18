@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 250">
+  <defs>
+    <linearGradient id="bg-ov3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="12" y="10" width="756" height="230" fill="url(#bg-ov3)" stroke="#0d9488" stroke-width="2" rx="14"/>
+
+  <!-- 헤더 -->
+  <rect x="30" y="26" width="62" height="24" fill="#0d9488" rx="12"/>
+  <text x="61" y="42.5" text-anchor="middle" font-size="11" font-weight="700" fill="#fff" letter-spacing="0.5">실습</text>
+  <text x="106" y="44" font-size="17" font-weight="800" fill="#1f2937">라벨 100건으로 측정하고 고치기</text>
+  <text x="750" y="43" text-anchor="end" font-size="11" font-weight="600" fill="#0d9488">측정·교정 · 40~45분</text>
+  <line x1="30" y1="60" x2="750" y2="60" stroke="#0d9488" stroke-width="0.8" stroke-opacity="0.4"/>
+
+  <!-- 패널 1: 분류 대상 -->
+  <rect x="30" y="74" width="228" height="150" fill="#fff" stroke="#0d9488" stroke-width="1.2" stroke-opacity="0.55" rx="9"/>
+  <circle cx="55" cy="97" r="9" fill="#0d9488"/>
+  <text x="55" y="100.5" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">1</text>
+  <text x="71" y="101" font-size="11" font-weight="800" fill="#0d9488" letter-spacing="0.3">분류 대상</text>
+  <text x="46" y="128" font-size="9.5" font-weight="700" fill="#1f2937" font-family="ui-monospace,Menlo,Consolas,monospace">세션3_신규민원_10건.txt</text>
+  <text x="46" y="147" font-size="9.5" fill="#475569">시연 1과 같은 신규 민원 10건</text>
+  <text x="46" y="164" font-size="9.5" fill="#475569">측정·교정 후 다시 분류</text>
+  <text x="46" y="181" font-size="9.5" fill="#475569">참고 정답과 대조할 대상</text>
+  <rect x="42" y="193" width="204" height="24" rx="7" fill="#0d9488" fill-opacity="0.10"/>
+  <text x="144" y="209" text-anchor="middle" font-size="9.3" font-weight="600" fill="#0d9488">채팅창에 첨부 → 분류·재분류</text>
+
+  <!-- 패널 2: 채우는 자산 -->
+  <rect x="276" y="74" width="228" height="150" fill="#fff" stroke="#0d9488" stroke-width="1.2" stroke-opacity="0.55" rx="9"/>
+  <circle cx="301" cy="97" r="9" fill="#0d9488"/>
+  <text x="301" y="100.5" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">2</text>
+  <text x="317" y="101" font-size="11" font-weight="800" fill="#0d9488" letter-spacing="0.3">채우는 자산</text>
+  <text x="292" y="128" font-size="11" font-weight="700" fill="#1f2937">Knowledge + Instructions</text>
+  <text x="292" y="147" font-size="9.5" fill="#475569">Knowledge — <tspan font-family="ui-monospace,Menlo,Consolas,monospace" font-weight="700" fill="#1f2937">세션3_민원학습_100건.csv</tspan></text>
+  <text x="292" y="164" font-size="9.5" fill="#475569">Instructions — 경계 사례 보강</text>
+  <text x="292" y="181" font-size="9.5" fill="#475569">시연 1 Gem을 그대로 재사용</text>
+  <rect x="288" y="193" width="204" height="24" rx="7" fill="#0d9488" fill-opacity="0.10"/>
+  <text x="390" y="209" text-anchor="middle" font-size="9.3" font-weight="600" fill="#0d9488">정확도는 경계 사례에서 나온다</text>
+
+  <!-- 패널 3: 목적 -->
+  <rect x="522" y="74" width="228" height="150" fill="#fff" stroke="#0d9488" stroke-width="1.2" stroke-opacity="0.55" rx="9"/>
+  <circle cx="547" cy="97" r="9" fill="#0d9488"/>
+  <text x="547" y="100.5" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">3</text>
+  <text x="563" y="101" font-size="11" font-weight="800" fill="#0d9488" letter-spacing="0.3">목적</text>
+  <text x="538" y="128" font-size="11" font-weight="700" fill="#1f2937">측정 → 교정 → 재분류</text>
+  <text x="538" y="147" font-size="9.5" fill="#475569">참고 정답과 대조 → 일치율 측정</text>
+  <text x="538" y="164" font-size="9.5" fill="#475569">틀린 패턴 → 경계 사례 한 줄</text>
+  <text x="538" y="181" font-size="9.5" fill="#475569">재분류로 개선 확인 — 1사이클</text>
+  <rect x="534" y="193" width="204" height="24" rx="7" fill="#0d9488" fill-opacity="0.16"/>
+  <text x="636" y="209" text-anchor="middle" font-size="9.3" font-weight="600" fill="#0d9488">산출물 · 검수 완료 분류 결과</text>
+</svg>

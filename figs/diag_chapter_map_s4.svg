@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 68 880 228">
+  <defs>
+    <linearGradient id="cm-teal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="cm-amber" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.07"/>
+    </linearGradient>
+    <linearGradient id="cm-red" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Stage 1: 분류 결과 첨부 -->
+  <g transform="translate(20,82)">
+    <rect x="0" y="0" width="124" height="200" fill="url(#cm-teal)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <circle cx="20" cy="22" r="11" fill="#0d9488"/>
+    <text x="20" y="26" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">1</text>
+    <text x="62" y="56" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0d9488">분류 결과 첨부</text>
+    <text x="62" y="86" text-anchor="middle" font-size="9" fill="#1f2937">§3 배포 파일을</text>
+    <text x="62" y="101" text-anchor="middle" font-size="9" fill="#1f2937">새 채팅에 첨부</text>
+    <rect x="14" y="116" width="96" height="42" fill="#ffffff" stroke="#0d9488" stroke-width="1" rx="4"/>
+    <text x="62" y="133" text-anchor="middle" font-size="7.5" fill="#0d9488">세션3_신규민원_</text>
+    <text x="62" y="147" text-anchor="middle" font-size="7.5" fill="#0d9488">10건_분류결과.md</text>
+    <text x="62" y="182" text-anchor="middle" font-size="8.5" fill="#6b7280">새 Gem 없음</text>
+  </g>
+
+  <line x1="146" y1="180" x2="157" y2="180" stroke="#0d9488" stroke-width="2"/>
+  <polygon points="157,175 157,185 163,180" fill="#0d9488"/>
+
+  <!-- Stage 2: 텍스트 초안 -->
+  <g transform="translate(163,82)">
+    <rect x="0" y="0" width="124" height="200" fill="url(#cm-teal)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <circle cx="20" cy="22" r="11" fill="#0d9488"/>
+    <text x="20" y="26" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">2</text>
+    <text x="62" y="56" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0d9488">텍스트 초안</text>
+    <text x="62" y="86" text-anchor="middle" font-size="9" fill="#1f2937">마스터 템플릿</text>
+    <text x="62" y="101" text-anchor="middle" font-size="9" fill="#1f2937">한 부탁</text>
+    <rect x="14" y="116" width="96" height="42" fill="#ffffff" stroke="#0d9488" stroke-width="1" rx="4"/>
+    <text x="62" y="133" text-anchor="middle" font-size="8" fill="#0d9488">Canvas 없이</text>
+    <text x="62" y="147" text-anchor="middle" font-size="8" fill="#0d9488">채팅 응답으로</text>
+    <text x="62" y="182" text-anchor="middle" font-size="8.5" fill="#6b7280">본문 4섹션·차트</text>
+  </g>
+
+  <line x1="289" y1="180" x2="300" y2="180" stroke="#0d9488" stroke-width="2"/>
+  <polygon points="300,175 300,185 306,180" fill="#0d9488"/>
+
+  <!-- Stage 3: 웹 검색 -->
+  <g transform="translate(306,82)">
+    <rect x="0" y="0" width="124" height="200" fill="url(#cm-teal)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <circle cx="20" cy="22" r="11" fill="#0d9488"/>
+    <text x="20" y="26" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">3</text>
+    <text x="62" y="56" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0d9488">웹 검색</text>
+    <text x="62" y="86" text-anchor="middle" font-size="9" fill="#1f2937">권고 근거를</text>
+    <text x="62" y="101" text-anchor="middle" font-size="9" fill="#1f2937">웹에서 검색</text>
+    <rect x="14" y="116" width="96" height="42" fill="#ffffff" stroke="#0d9488" stroke-width="1" rx="4"/>
+    <text x="62" y="133" text-anchor="middle" font-size="8" fill="#0d9488">출처 URL 결과</text>
+    <text x="62" y="147" text-anchor="middle" font-size="8" fill="#0d9488">(응답에 바로)</text>
+    <text x="62" y="182" text-anchor="middle" font-size="8.5" fill="#6b7280">사람이 선별</text>
+  </g>
+
+  <line x1="432" y1="180" x2="443" y2="180" stroke="#0d9488" stroke-width="2"/>
+  <polygon points="443,175 443,185 449,180" fill="#0d9488"/>
+
+  <!-- Stage 4: 근거 반영 -->
+  <g transform="translate(449,82)">
+    <rect x="0" y="0" width="124" height="200" fill="url(#cm-amber)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <circle cx="20" cy="22" r="11" fill="#0d9488"/>
+    <text x="20" y="26" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">4</text>
+    <text x="62" y="56" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0f766e">근거 반영</text>
+    <text x="62" y="86" text-anchor="middle" font-size="9" fill="#1f2937">고른 근거를</text>
+    <text x="62" y="101" text-anchor="middle" font-size="9" fill="#1f2937">## 4 각주로</text>
+    <rect x="14" y="116" width="96" height="42" fill="#ffffff" stroke="#0d9488" stroke-width="1" rx="4"/>
+    <text x="62" y="133" text-anchor="middle" font-size="8" fill="#0f766e">통계 숫자</text>
+    <text x="62" y="147" text-anchor="middle" font-size="8" fill="#0f766e">유지 조건</text>
+    <text x="62" y="182" text-anchor="middle" font-size="8.5" fill="#115e59">보고서 v2 전체</text>
+  </g>
+
+  <line x1="575" y1="180" x2="586" y2="180" stroke="#0d9488" stroke-width="2"/>
+  <polygon points="586,175 586,185 592,180" fill="#0d9488"/>
+
+  <!-- Stage 5: Canvas로 보고서 완성 -->
+  <g transform="translate(592,82)">
+    <rect x="0" y="0" width="124" height="200" fill="url(#cm-amber)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <circle cx="20" cy="22" r="11" fill="#0d9488"/>
+    <text x="20" y="26" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">5</text>
+    <text x="62" y="56" text-anchor="middle" font-size="9.5" font-weight="700" fill="#0f766e">Canvas로 보고서 완성</text>
+    <text x="62" y="86" text-anchor="middle" font-size="9" fill="#1f2937">후속 한 줄</text>
+    <text x="62" y="101" text-anchor="middle" font-size="9" fill="#1f2937">"Canvas로 보고서 작성"</text>
+    <rect x="14" y="116" width="96" height="42" fill="#ffffff" stroke="#0d9488" stroke-width="1" rx="4"/>
+    <text x="62" y="133" text-anchor="middle" font-size="8" fill="#0f766e">우측 편집창</text>
+    <text x="62" y="147" text-anchor="middle" font-size="8" fill="#0f766e">문서로</text>
+    <text x="62" y="182" text-anchor="middle" font-size="8.5" fill="#115e59">직접 편집·검수</text>
+  </g>
+
+  <line x1="718" y1="180" x2="729" y2="180" stroke="#0d9488" stroke-width="2"/>
+  <polygon points="729,175 729,185 735,180" fill="#0d9488"/>
+
+  <!-- Stage 6: 발행 전 검수 -->
+  <g transform="translate(735,82)">
+    <rect x="0" y="0" width="124" height="200" fill="url(#cm-red)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <circle cx="20" cy="22" r="11" fill="#0d9488"/>
+    <text x="20" y="26" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">6</text>
+    <text x="62" y="56" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0f766e">발행 전 검수</text>
+    <text x="62" y="86" text-anchor="middle" font-size="9" fill="#1f2937">통계·근거·권고</text>
+    <text x="62" y="101" text-anchor="middle" font-size="9" fill="#1f2937">3가지 점검</text>
+    <rect x="14" y="116" width="96" height="42" fill="#ffffff" stroke="#0d9488" stroke-width="1" rx="4"/>
+    <text x="62" y="133" text-anchor="middle" font-size="8" fill="#0f766e">사람이</text>
+    <text x="62" y="147" text-anchor="middle" font-size="8" fill="#0f766e">최종 검수</text>
+    <text x="62" y="182" text-anchor="middle" font-size="8.5" font-weight="700" fill="#0f766e">→ 결재</text>
+  </g>
+</svg>

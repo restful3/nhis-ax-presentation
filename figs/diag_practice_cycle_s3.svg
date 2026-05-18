@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 12 760 238">
+  <!-- ① 신규 10건 분류 -->
+  <g transform="translate(10,30)">
+    <rect width="165" height="150" fill="#fff" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="82" y="28" text-anchor="middle" font-size="12" font-weight="700" fill="#0d9488">① 신규 10건 분류</text>
+    <line x1="16" y1="40" x2="149" y2="40" stroke="#d1d5db" stroke-width="1"/>
+    <text x="82" y="64" text-anchor="middle" font-size="10" fill="#374151">Gem 활성 새 채팅에</text>
+    <text x="82" y="82" text-anchor="middle" font-size="10" fill="#374151">신규 10건 첨부</text>
+    <text x="82" y="100" text-anchor="middle" font-size="10" fill="#374151">"분류해줘" 한 줄</text>
+    <text x="82" y="128" text-anchor="middle" font-size="9" fill="#6b7280" font-style="italic">분류표 산출</text>
+  </g>
+
+  <line x1="177" y1="105" x2="192" y2="105" stroke="#0d9488" stroke-width="2"/>
+  <polygon points="192,100 192,110 200,105" fill="#0d9488"/>
+
+  <!-- ② 참고 정답과 대조 -->
+  <g transform="translate(200,30)">
+    <rect width="165" height="150" fill="#fff" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="82" y="28" text-anchor="middle" font-size="12" font-weight="700" fill="#0d9488">② 참고 정답과 대조</text>
+    <line x1="16" y1="40" x2="149" y2="40" stroke="#d1d5db" stroke-width="1"/>
+    <text x="82" y="64" text-anchor="middle" font-size="10" fill="#374151">본문 "참고 답안"과</text>
+    <text x="82" y="82" text-anchor="middle" font-size="10" fill="#374151">한 건씩 대조</text>
+    <text x="82" y="100" text-anchor="middle" font-size="10" fill="#374151">일치율 측정</text>
+    <text x="82" y="128" text-anchor="middle" font-size="9" fill="#6b7280" font-style="italic">예: 9/10 · 틀린 건 식별</text>
+  </g>
+
+  <line x1="367" y1="105" x2="382" y2="105" stroke="#0d9488" stroke-width="2"/>
+  <polygon points="382,100 382,110 390,105" fill="#0d9488"/>
+
+  <!-- ③ 경계 사례 보강 -->
+  <g transform="translate(390,30)">
+    <rect width="165" height="150" fill="#fff" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="82" y="28" text-anchor="middle" font-size="12" font-weight="700" fill="#0d9488">③ 경계 사례 보강</text>
+    <line x1="16" y1="40" x2="149" y2="40" stroke="#d1d5db" stroke-width="1"/>
+    <text x="82" y="64" text-anchor="middle" font-size="10" fill="#374151">틀린 건 패턴을</text>
+    <text x="82" y="82" text-anchor="middle" font-size="10" fill="#374151">Instructions에</text>
+    <text x="82" y="100" text-anchor="middle" font-size="10" fill="#374151">경계 사례 한 줄 추가</text>
+    <text x="82" y="128" text-anchor="middle" font-size="9" fill="#6b7280" font-style="italic">매뉴얼이 자란다</text>
+  </g>
+
+  <line x1="557" y1="105" x2="572" y2="105" stroke="#0d9488" stroke-width="2"/>
+  <polygon points="572,100 572,110 580,105" fill="#0d9488"/>
+
+  <!-- ④ 재분류·개선 확인 -->
+  <g transform="translate(580,30)">
+    <rect width="165" height="150" fill="#fff" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="82" y="28" text-anchor="middle" font-size="12" font-weight="700" fill="#0d9488">④ 재분류·개선 확인</text>
+    <line x1="16" y1="40" x2="149" y2="40" stroke="#d1d5db" stroke-width="1"/>
+    <text x="82" y="64" text-anchor="middle" font-size="10" fill="#374151">새 채팅에서</text>
+    <text x="82" y="82" text-anchor="middle" font-size="10" fill="#374151">신규 10건 재분류</text>
+    <text x="82" y="100" text-anchor="middle" font-size="10" fill="#374151">그 건이 고쳐졌나?</text>
+    <text x="82" y="128" text-anchor="middle" font-size="9" fill="#059669" font-style="italic">고쳐졌으면 사이클 완료</text>
+  </g>
+
+  <!-- 회귀 화살표: ④ → ① -->
+  <path d="M662.5,180 L662.5,222 L92.5,222 L92.5,184" fill="none" stroke="#0d9488" stroke-width="2"/>
+  <polygon points="87.5,190 97.5,190 92.5,182" fill="#0d9488"/>
+  <rect x="232" y="210" width="290" height="22" fill="#fff"/>
+  <text x="377" y="225" text-anchor="middle" font-size="10" fill="#0d9488" font-weight="600">안 고쳐지면 경계 사례 문구를 다듬어 다시</text>
+</svg>

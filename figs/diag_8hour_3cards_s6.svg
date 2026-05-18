@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="34 64 732 194">
+  <defs>
+    <linearGradient id="bg-6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(40,70)">
+    <rect x="0" y="0" width="220" height="180" fill="url(#bg-6)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="110" y="32" text-anchor="middle" font-size="13" font-weight="700" fill="#0d9488">① AX 4단계</text>
+    <text x="110" y="60" text-anchor="middle" font-size="14" font-weight="600" fill="#1f2937">분석→분류→보고서→기획</text>
+    <text x="110" y="90" text-anchor="middle" font-size="11" fill="#374151">§2~§5 네 단계로 실습</text>
+    <text x="110" y="108" text-anchor="middle" font-size="11" fill="#374151">§1에서 잡은 큰 그림</text>
+    <text x="110" y="142" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">→ 도구가 바뀌어도</text>
+    <text x="110" y="158" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">  남는 사고 틀</text>
+  </g>
+
+  <g transform="translate(290,70)">
+    <rect x="0" y="0" width="220" height="180" fill="url(#bg-6)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="110" y="32" text-anchor="middle" font-size="13" font-weight="700" fill="#0d9488">② 분류 → 보고서</text>
+    <text x="110" y="60" text-anchor="middle" font-size="14" font-weight="600" fill="#1f2937">분류 Gem → 보고서 한 부탁</text>
+    <text x="110" y="90" text-anchor="middle" font-size="11" fill="#374151">§3 분류 + §4 보고서</text>
+    <text x="110" y="108" text-anchor="middle" font-size="11" fill="#374151">— 사람이 파일 1번 첨부</text>
+    <text x="110" y="142" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">→ AI 두 단계를</text>
+    <text x="110" y="158" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">  사람이 잇기</text>
+  </g>
+
+  <g transform="translate(540,70)">
+    <rect x="0" y="0" width="220" height="180" fill="url(#bg-6)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="110" y="32" text-anchor="middle" font-size="13" font-weight="700" fill="#0d9488">③ AI의 역할</text>
+    <text x="110" y="60" text-anchor="middle" font-size="14" font-weight="600" fill="#1f2937">초안 생성자, 결재는 사람</text>
+    <text x="110" y="90" text-anchor="middle" font-size="11" fill="#374151">Drafter (AI)</text>
+    <text x="110" y="108" text-anchor="middle" font-size="11" fill="#374151">+ HITL (사람) — 전 챕터</text>
+    <text x="110" y="142" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">→ "책임 있는 AX"의</text>
+    <text x="110" y="158" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">  본질</text>
+  </g>
+</svg>

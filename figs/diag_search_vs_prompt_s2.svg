@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="44 50 692 244">
+  <defs>
+    <linearGradient id="svp-teal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===== Left card: 검색 (도서관) ===== -->
+  <rect x="52" y="56" width="322" height="232" rx="12" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- 책장 아이콘 -->
+  <rect x="172" y="76" width="14" height="32" fill="#94a3b8" stroke="#475569" stroke-width="0.75"/>
+  <rect x="189" y="82" width="14" height="26" fill="#cbd5e1" stroke="#475569" stroke-width="0.75"/>
+  <rect x="206" y="72" width="14" height="36" fill="#64748b" stroke="#475569" stroke-width="0.75"/>
+  <rect x="223" y="84" width="14" height="24" fill="#cbd5e1" stroke="#475569" stroke-width="0.75"/>
+  <rect x="240" y="78" width="14" height="30" fill="#94a3b8" stroke="#475569" stroke-width="0.75"/>
+  <line x1="166" y1="109" x2="260" y2="109" stroke="#475569" stroke-width="2.5"/>
+
+  <text x="213" y="131" text-anchor="middle" font-size="15" font-weight="700" fill="#475569">검색 (Search)</text>
+  <text x="213" y="148" text-anchor="middle" font-size="10.5" font-style="italic" fill="#64748b">도서관에서 책을 빌리는 일</text>
+  <line x1="68" y1="159" x2="358" y2="159" stroke="#cbd5e1" stroke-width="1"/>
+
+  <!-- rows: 검색 -->
+  <text x="72" y="179" font-size="10.5" font-weight="700" fill="#64748b">하는 일</text>
+  <text x="132" y="179" font-size="11.5" fill="#334155">있는 문서를 찾아 보여줌</text>
+  <line x1="68" y1="191" x2="358" y2="191" stroke="#e2e8f0" stroke-width="1"/>
+
+  <text x="72" y="212" font-size="10.5" font-weight="700" fill="#64748b">입력</text>
+  <text x="132" y="212" font-size="11.5" fill="#334155">키워드 ("건강보험")</text>
+  <line x1="68" y1="224" x2="358" y2="224" stroke="#e2e8f0" stroke-width="1"/>
+
+  <text x="72" y="244" font-size="10.5" font-weight="700" fill="#64748b">결과</text>
+  <text x="132" y="244" font-size="11.5" fill="#334155">기존 웹페이지 목록</text>
+  <line x1="68" y1="256" x2="358" y2="256" stroke="#e2e8f0" stroke-width="1"/>
+
+  <text x="72" y="276" font-size="10.5" font-weight="700" fill="#64748b">품질</text>
+  <text x="132" y="276" font-size="11.5" fill="#334155">키워드 선택이 좌우</text>
+
+  <!-- ===== Right card: 프롬프트 (사서) ===== -->
+  <rect x="406" y="56" width="322" height="232" rx="12" fill="url(#svp-teal)" stroke="#0d9488" stroke-width="1.5"/>
+
+  <!-- 사서 아이콘 (자료를 들고 있는 사람) -->
+  <circle cx="560" cy="80" r="9" fill="#0d9488"/>
+  <path d="M 544 109 C 544 90 576 90 576 109 Z" fill="#0d9488"/>
+  <rect x="575" y="89" width="16" height="20" rx="2" fill="#ffffff" stroke="#0d9488" stroke-width="1.5"/>
+  <line x1="579" y1="95" x2="587" y2="95" stroke="#0d9488" stroke-width="1"/>
+  <line x1="579" y1="100" x2="587" y2="100" stroke="#0d9488" stroke-width="1"/>
+  <line x1="579" y1="105" x2="585" y2="105" stroke="#0d9488" stroke-width="1"/>
+
+  <text x="567" y="131" text-anchor="middle" font-size="15" font-weight="700" fill="#0d9488">프롬프트 (Prompt)</text>
+  <text x="567" y="148" text-anchor="middle" font-size="10.5" font-style="italic" fill="#0f766e">사서에게 정리를 부탁하는 일</text>
+  <line x1="422" y1="159" x2="712" y2="159" stroke="#0d9488" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- rows: 프롬프트 -->
+  <text x="426" y="179" font-size="10.5" font-weight="700" fill="#0d9488">하는 일</text>
+  <text x="486" y="179" font-size="11.5" fill="#1f2937">새로운 답변을 생성</text>
+  <line x1="422" y1="191" x2="712" y2="191" stroke="#0d9488" stroke-width="1" stroke-opacity="0.18"/>
+
+  <text x="426" y="212" font-size="10.5" font-weight="700" fill="#0d9488">입력</text>
+  <text x="486" y="212" font-size="11.5" fill="#1f2937">맥락 + 지시</text>
+  <line x1="422" y1="224" x2="712" y2="224" stroke="#0d9488" stroke-width="1" stroke-opacity="0.18"/>
+
+  <text x="426" y="244" font-size="10.5" font-weight="700" fill="#0d9488">결과</text>
+  <text x="486" y="244" font-size="11.5" fill="#1f2937">새 표·문서·코드</text>
+  <line x1="422" y1="256" x2="712" y2="256" stroke="#0d9488" stroke-width="1" stroke-opacity="0.18"/>
+
+  <text x="426" y="276" font-size="10.5" font-weight="700" fill="#0d9488">품질</text>
+  <text x="486" y="276" font-size="11.5" font-weight="700" fill="#0d9488">프롬프트 품질이 좌우</text>
+
+  <!-- 중앙 ≠ 배지 -->
+  <circle cx="390" cy="118" r="21" fill="#ffffff" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="390" y="126" text-anchor="middle" font-size="22" font-weight="700" fill="#0d9488">≠</text>
+</svg>

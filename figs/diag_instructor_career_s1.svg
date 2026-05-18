@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="30 54 850 246">
+  <!-- Box 1: 토대 -->
+  <g transform="translate(40,60)">
+    <rect x="0" y="0" width="188" height="232" fill="#64748b" fill-opacity="0.08" stroke="#64748b" stroke-width="1.5" rx="8"/>
+    <text x="94" y="38" text-anchor="middle" font-size="15" font-weight="700" fill="#475569">토대</text>
+    <text x="94" y="68" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1f2937">전자공학 → 네트워크</text>
+    <line x1="26" y1="84" x2="162" y2="84" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="94" y="124" text-anchor="middle" font-size="12.5" fill="#374151">전자공학 학부</text>
+    <text x="94" y="162" text-anchor="middle" font-size="12.5" fill="#374151">삼성전자 · 홈네트워크</text>
+    <text x="94" y="200" text-anchor="middle" font-size="12.5" fill="#374151">석·박사 (컴퓨터 네트워크)</text>
+  </g>
+  <text x="239" y="184" text-anchor="middle" font-size="22" font-weight="700" fill="#0d9488">→</text>
+  <!-- Box 2: 네트워크 -->
+  <g transform="translate(250,60)">
+    <rect x="0" y="0" width="188" height="232" fill="#64748b" fill-opacity="0.08" stroke="#64748b" stroke-width="1.5" rx="8"/>
+    <text x="94" y="38" text-anchor="middle" font-size="15" font-weight="700" fill="#475569">네트워크</text>
+    <text x="94" y="68" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1f2937">LG전자 · 네트워크 표준</text>
+    <line x1="26" y1="84" x2="162" y2="84" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="94" y="124" text-anchor="middle" font-size="12.5" fill="#374151">통신 네트워크</text>
+    <text x="94" y="162" text-anchor="middle" font-size="12.5" fill="#374151">표준화 업무</text>
+    <text x="94" y="200" text-anchor="middle" font-size="15" font-weight="700" fill="#475569">5년</text>
+  </g>
+  <text x="449" y="184" text-anchor="middle" font-size="22" font-weight="700" fill="#0d9488">→</text>
+  <!-- Box 3: AI -->
+  <g transform="translate(460,60)">
+    <rect x="0" y="0" width="188" height="232" fill="#0d9488" fill-opacity="0.07" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="94" y="38" text-anchor="middle" font-size="15" font-weight="700" fill="#0d9488">AI</text>
+    <text x="94" y="68" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1f2937">LG전자 · AI 연구소</text>
+    <line x1="26" y1="84" x2="162" y2="84" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="94" y="124" text-anchor="middle" font-size="12.5" fill="#374151">헬스케어 AI</text>
+    <text x="94" y="162" text-anchor="middle" font-size="12.5" fill="#374151">알고리즘·모델링</text>
+    <text x="94" y="200" text-anchor="middle" font-size="15" font-weight="700" fill="#0d9488">3년</text>
+  </g>
+  <text x="659" y="184" text-anchor="middle" font-size="22" font-weight="700" fill="#0d9488">→</text>
+  <!-- Box 4: AX -->
+  <g transform="translate(670,60)">
+    <rect x="0" y="0" width="188" height="232" fill="#0d9488" fill-opacity="0.16" stroke="#0d9488" stroke-width="2.5" rx="8"/>
+    <text x="94" y="38" text-anchor="middle" font-size="15" font-weight="700" fill="#0d9488">★ AX · 현재</text>
+    <text x="94" y="68" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1f2937">LG전자 · AX센터</text>
+    <line x1="26" y1="84" x2="162" y2="84" stroke="#5eead4" stroke-width="1"/>
+    <text x="94" y="124" text-anchor="middle" font-size="12.5" fill="#374151">사내 업무의</text>
+    <text x="94" y="162" text-anchor="middle" font-size="12.5" fill="#374151">AX 추진</text>
+    <text x="94" y="200" text-anchor="middle" font-size="15" font-weight="700" fill="#0d9488">3년 · 현재</text>
+  </g>
+</svg>

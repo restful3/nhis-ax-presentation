@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40.00 56.00 920.00 270.00">
+  <defs>
+    <linearGradient id="ai-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="hum-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <text x="60" y="80" font-size="12" font-weight="700" fill="#0d9488">🤖 AI</text>
+  <text x="60" y="205" font-size="12" font-weight="700" fill="#b45309">👤 사람 (HITL)</text>
+
+  <g transform="translate(140,60)">
+    <text x="80" y="20" text-anchor="middle" font-size="13" font-weight="700" fill="#0d9488">1단계 · 분석</text>
+    <rect x="0" y="32" width="160" height="90" fill="url(#ai-bg)" stroke="#0d9488" stroke-width="1.5" rx="6"/>
+    <text x="80" y="56" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">유형·패턴 도출</text>
+    <text x="80" y="78" text-anchor="middle" font-size="10" fill="#374151">비정형/정형 데이터에서</text>
+    <text x="80" y="94" text-anchor="middle" font-size="10" fill="#374151">5유형 분류 체계 자동 생성</text>
+    <text x="80" y="113" text-anchor="middle" font-size="9" fill="#0d9488" font-style="italic">예: 이의신청 1,000건 → 5유형</text>
+    <rect x="0" y="160" width="160" height="80" fill="url(#hum-bg)" stroke="#f59e0b" stroke-width="1.5" rx="6"/>
+    <text x="80" y="184" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">분류 체계 검토</text>
+    <text x="80" y="206" text-anchor="middle" font-size="10" fill="#374151">"이 분류 체계가 맞나"</text>
+    <text x="80" y="226" text-anchor="middle" font-size="10" fill="#374151">최종 확정</text>
+  </g>
+
+  <line x1="305" y1="137" x2="345" y2="137" stroke="#94a3b8" stroke-width="1.8"/>
+  <polygon points="353,137 345,133 345,141" fill="#94a3b8" stroke="none"/>
+  <line x1="305" y1="260" x2="345" y2="260" stroke="#94a3b8" stroke-width="1.8"/>
+  <polygon points="353,260 345,256 345,264" fill="#94a3b8" stroke="none"/>
+
+  <g transform="translate(360,60)">
+    <text x="80" y="20" text-anchor="middle" font-size="13" font-weight="700" fill="#0d9488">2단계 · 자동 분류</text>
+    <rect x="0" y="32" width="160" height="90" fill="url(#ai-bg)" stroke="#0d9488" stroke-width="1.5" rx="6"/>
+    <text x="80" y="56" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">신규 자동 분류</text>
+    <text x="80" y="78" text-anchor="middle" font-size="10" fill="#374151">신규 1건 → 5유형 중 어디</text>
+    <text x="80" y="94" text-anchor="middle" font-size="10" fill="#374151">신뢰도(상/중/하) 동시 출력</text>
+    <text x="80" y="113" text-anchor="middle" font-size="9" fill="#0d9488" font-style="italic">예: 새 민원 자동 판정</text>
+    <rect x="0" y="160" width="160" height="80" fill="url(#hum-bg)" stroke="#f59e0b" stroke-width="1.5" rx="6"/>
+    <text x="80" y="184" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">경계 사례 검토</text>
+    <text x="80" y="206" text-anchor="middle" font-size="10" fill="#374151">신뢰도 "하" 인 건만</text>
+    <text x="80" y="226" text-anchor="middle" font-size="10" fill="#374151">사람 한 번 더 확인</text>
+  </g>
+
+  <line x1="525" y1="137" x2="565" y2="137" stroke="#94a3b8" stroke-width="1.8"/>
+  <polygon points="573,137 565,133 565,141" fill="#94a3b8" stroke="none"/>
+  <line x1="525" y1="260" x2="565" y2="260" stroke="#94a3b8" stroke-width="1.8"/>
+  <polygon points="573,260 565,256 565,264" fill="#94a3b8" stroke="none"/>
+
+  <g transform="translate(580,60)">
+    <text x="80" y="20" text-anchor="middle" font-size="13" font-weight="700" fill="#0d9488">3단계 · 보고서</text>
+    <rect x="0" y="32" width="160" height="90" fill="url(#ai-bg)" stroke="#0d9488" stroke-width="1.5" rx="6"/>
+    <text x="80" y="56" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">보고서 초안 생성</text>
+    <text x="80" y="78" text-anchor="middle" font-size="10" fill="#374151">분류 결과 + 기존 답변</text>
+    <text x="80" y="94" text-anchor="middle" font-size="10" fill="#374151">→ 보고서·안내문 초안</text>
+    <text x="80" y="113" text-anchor="middle" font-size="9" fill="#0d9488" font-style="italic">예: 보고서 초안 자동 생성</text>
+    <rect x="0" y="160" width="160" height="80" fill="url(#hum-bg)" stroke="#f59e0b" stroke-width="1.5" rx="6"/>
+    <text x="80" y="184" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">최종 발송 결재</text>
+    <text x="80" y="206" text-anchor="middle" font-size="10" fill="#374151">"이대로 발송해도 되나"</text>
+    <text x="80" y="226" text-anchor="middle" font-size="10" fill="#374151">결재 후 발송</text>
+  </g>
+
+  <line x1="745" y1="137" x2="785" y2="137" stroke="#94a3b8" stroke-width="1.8"/>
+  <polygon points="793,137 785,133 785,141" fill="#94a3b8" stroke="none"/>
+  <line x1="745" y1="260" x2="785" y2="260" stroke="#94a3b8" stroke-width="1.8"/>
+  <polygon points="793,260 785,256 785,264" fill="#94a3b8" stroke="none"/>
+
+  <g transform="translate(800,60)">
+    <text x="80" y="20" text-anchor="middle" font-size="13" font-weight="700" fill="#0d9488">4단계 · 기획</text>
+    <rect x="0" y="32" width="160" height="90" fill="url(#ai-bg)" stroke="#0d9488" stroke-width="1.5" rx="6"/>
+    <text x="80" y="56" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">기획안 초안 보조</text>
+    <text x="80" y="78" text-anchor="middle" font-size="10" fill="#374151">AS-IS·TO-BE 문장 정리</text>
+    <text x="80" y="94" text-anchor="middle" font-size="10" fill="#374151">다섯 질문 → 한 장 구조화</text>
+    <text x="80" y="113" text-anchor="middle" font-size="9" fill="#0d9488" font-style="italic">예: 부서 AX 기획안 초안</text>
+    <rect x="0" y="160" width="160" height="80" fill="url(#hum-bg)" stroke="#f59e0b" stroke-width="1.5" rx="6"/>
+    <text x="80" y="184" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">과제 선정·결정</text>
+    <text x="80" y="206" text-anchor="middle" font-size="10" fill="#374151">어떤 업무를 AX 할지</text>
+    <text x="80" y="226" text-anchor="middle" font-size="10" fill="#374151">타당성·우선순위 판단</text>
+  </g>
+
+  <g stroke="#b45309" stroke-width="2" fill="#b45309">
+    <line x1="220" y1="185" x2="220" y2="212"/>
+    <polygon points="220,220 215,211 225,211" stroke="none"/>
+    <line x1="440" y1="185" x2="440" y2="212"/>
+    <polygon points="440,220 435,211 445,211" stroke="none"/>
+    <line x1="660" y1="185" x2="660" y2="212"/>
+    <polygon points="660,220 655,211 665,211" stroke="none"/>
+    <line x1="880" y1="185" x2="880" y2="212"/>
+    <polygon points="880,220 875,211 885,211" stroke="none"/>
+  </g>
+  <text x="232" y="205" font-size="9" font-weight="700" fill="#b45309">HITL ✓</text>
+  <text x="452" y="205" font-size="9" font-weight="700" fill="#b45309">HITL ✓</text>
+  <text x="672" y="205" font-size="9" font-weight="700" fill="#b45309">HITL ✓</text>
+  <text x="892" y="205" font-size="9" font-weight="700" fill="#b45309">HITL ✓</text>
+
+  <text x="550" y="318" text-anchor="middle" font-size="11" fill="#b45309" font-weight="600">AI는 반복을 처리, 사람은 판단을 책임 — 모든 단계 끝에 HITL 게이트</text>
+</svg>

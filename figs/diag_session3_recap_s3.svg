@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 8 770 174">
+  <defs>
+    <linearGradient id="bg-r3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ① Gem = 재사용 자산 -->
+  <g transform="translate(20,20)">
+    <rect width="230" height="150" fill="url(#bg-r3)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="115" y="32" text-anchor="middle" font-size="13" font-weight="700" fill="#0d9488">① Gem = 재사용 자산</text>
+    <line x1="20" y1="44" x2="210" y2="44" stroke="#d1d5db" stroke-width="1"/>
+    <text x="115" y="72" text-anchor="middle" font-size="11" fill="#374151">한 번 만들면 같은 URL로</text>
+    <text x="115" y="92" text-anchor="middle" font-size="11" fill="#374151">다음 주·다음 분기에도 호출</text>
+    <text x="115" y="124" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">VDI 꺼져도 인턴은 남는다</text>
+  </g>
+
+  <!-- ② Instructions vs Knowledge -->
+  <g transform="translate(270,20)">
+    <rect width="230" height="150" fill="url(#bg-r3)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="115" y="32" text-anchor="middle" font-size="13" font-weight="700" fill="#0d9488">② Instructions vs Knowledge</text>
+    <line x1="20" y1="44" x2="210" y2="44" stroke="#d1d5db" stroke-width="1"/>
+    <text x="115" y="72" text-anchor="middle" font-size="11" fill="#374151">Instructions = 매번 적용 규칙</text>
+    <text x="115" y="92" text-anchor="middle" font-size="11" fill="#374151">Knowledge = 참고 자료함</text>
+    <text x="115" y="124" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">분류 기준은 Instructions에</text>
+  </g>
+
+  <!-- ③ 측정·교정 루프 = HITL -->
+  <g transform="translate(520,20)">
+    <rect width="230" height="150" fill="url(#bg-r3)" stroke="#0d9488" stroke-width="1.5" rx="8"/>
+    <text x="115" y="32" text-anchor="middle" font-size="13" font-weight="700" fill="#0d9488">③ 측정·교정 루프 = HITL</text>
+    <line x1="20" y1="44" x2="210" y2="44" stroke="#d1d5db" stroke-width="1"/>
+    <text x="115" y="72" text-anchor="middle" font-size="11" fill="#374151">참고 정답과 대조해 점검</text>
+    <text x="115" y="92" text-anchor="middle" font-size="11" fill="#374151">반복 오류는 경계 사례로 보강</text>
+    <text x="115" y="124" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">결재선의 마지막 인간</text>
+  </g>
+</svg>
