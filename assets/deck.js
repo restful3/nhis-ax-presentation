@@ -46,7 +46,7 @@ document.getElementById('slideTotal').textContent = total;
 function goTo(i) {
   curIdx = Math.max(0, Math.min(total - 1, i));
   slidesEl.style.transform = 'translateX(-' + (curIdx * 100) + '%)';
-  document.getElementById('slideCur').textContent = (curIdx + 1);
+  document.getElementById('slideCur').value = (curIdx + 1);
   document.getElementById('progressFill').style.width = ((curIdx + 1) / total * 100) + '%';
   slides.forEach(function(s, idx) { s.classList.toggle('is-active', idx === curIdx); });
   // Animate counters on slides as they become active
@@ -63,6 +63,29 @@ document.addEventListener('keydown', function(e) {
   if (e.key === 'Home') { e.preventDefault(); goTo(0); }
   if (e.key === 'End') { e.preventDefault(); goTo(total - 1); }
 });
+
+// ===== Page number input (bottom bar) =====
+var slideCurInput = document.getElementById('slideCur');
+if (slideCurInput) {
+  slideCurInput.addEventListener('focus', function() { slideCurInput.select(); });
+  slideCurInput.addEventListener('input', function() {
+    slideCurInput.value = slideCurInput.value.replace(/[^0-9]/g, '').slice(0, 4);
+  });
+  slideCurInput.addEventListener('keydown', function(e) {
+    e.stopPropagation();
+    if (e.key === 'Enter') {
+      var n = parseInt(slideCurInput.value, 10);
+      if (n >= 1) goTo(n - 1);
+      slideCurInput.blur();
+    } else if (e.key === 'Escape') {
+      slideCurInput.value = (curIdx + 1);
+      slideCurInput.blur();
+    }
+  });
+  slideCurInput.addEventListener('blur', function() {
+    slideCurInput.value = (curIdx + 1);
+  });
+}
 
 // ===== Table of contents (left slide-in panel) =====
 var tocPanel = document.getElementById('tocPanel');
@@ -144,7 +167,8 @@ var chromeTimer = null;
 function hideChrome() {
   var dd = document.getElementById('vizMenuDropdown');
   if ((tocPanel && tocPanel.classList.contains('open'))
-      || (dd && dd.classList.contains('open'))) {
+      || (dd && dd.classList.contains('open'))
+      || (slideCurInput && document.activeElement === slideCurInput)) {
     chromeTimer = setTimeout(hideChrome, 3000);
     return;
   }
@@ -166,15 +190,6 @@ document.addEventListener('touchend', function(e) {
   var dx = e.changedTouches[0].clientX - touchStart;
   if (Math.abs(dx) > 50) { if (dx < 0) nextSlide(); else prevSlide(); }
   touchStart = null;
-});
-
-// Click left/right third of screen
-document.querySelector('.deck').addEventListener('click', function(e) {
-  if (tocPanel && tocPanel.classList.contains('open')) return;
-  if (e.target.closest('.slide-nav') || e.target.closest('.viz-menu') || e.target.closest('button') || e.target.closest('a')) return;
-  var x = e.clientX, w = window.innerWidth;
-  if (x < w * 0.33) prevSlide();
-  else if (x > w * 0.66) nextSlide();
 });
 
 // ===== Number Counter (per slide) =====

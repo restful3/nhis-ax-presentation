@@ -1484,6 +1484,23 @@ pre code {
   font-variant-numeric: tabular-nums;
 }
 .slide-counter span { color: var(--brand-primary); }
+.slide-counter input#slideCur {
+  width: 2.8em;
+  font: inherit;
+  font-variant-numeric: tabular-nums;
+  color: var(--brand-primary);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1px 2px;
+  text-align: center;
+  cursor: text;
+}
+.slide-counter input#slideCur:focus {
+  outline: none;
+  border-color: var(--brand-primary);
+  background: var(--surface-hover);
+}
 
 /* ===== TOC (left slide-in panel) ===== */
 .toc-toggle {
