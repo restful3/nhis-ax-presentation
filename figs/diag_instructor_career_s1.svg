@@ -25,7 +25,7 @@
   <g transform="translate(460,60)">
     <rect x="0" y="0" width="188" height="232" fill="#0d9488" fill-opacity="0.07" stroke="#0d9488" stroke-width="1.5" rx="8"/>
     <text x="94" y="38" text-anchor="middle" font-size="15" font-weight="700" fill="#0d9488">AI</text>
-    <text x="94" y="68" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1f2937">LG전자 · AI 연구소</text>
+    <text x="94" y="68" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1f2937">AI 연구소</text>
     <line x1="26" y1="84" x2="162" y2="84" stroke="#cbd5e1" stroke-width="1"/>
     <text x="94" y="124" text-anchor="middle" font-size="12.5" fill="#374151">헬스케어 AI</text>
     <text x="94" y="162" text-anchor="middle" font-size="12.5" fill="#374151">알고리즘·모델링</text>
@@ -36,7 +36,7 @@
   <g transform="translate(670,60)">
     <rect x="0" y="0" width="188" height="232" fill="#0d9488" fill-opacity="0.16" stroke="#0d9488" stroke-width="2.5" rx="8"/>
     <text x="94" y="38" text-anchor="middle" font-size="15" font-weight="700" fill="#0d9488">★ AX · 현재</text>
-    <text x="94" y="68" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1f2937">LG전자 · AX센터</text>
+    <text x="94" y="68" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1f2937">AX센터 / AI 오딧세이 운영</text>
     <line x1="26" y1="84" x2="162" y2="84" stroke="#5eead4" stroke-width="1"/>
     <text x="94" y="124" text-anchor="middle" font-size="12.5" fill="#374151">사내 업무의</text>
     <text x="94" y="162" text-anchor="middle" font-size="12.5" fill="#374151">AX 추진</text>
