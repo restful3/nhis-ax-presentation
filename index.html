@@ -12,6 +12,14 @@
 </head>
 <body>
   <a href="#main-content" class="skip-to-content" style="position:absolute;left:-9999px;">Skip to content</a>
+  <button class="toc-toggle" id="tocToggle" onclick="toggleToc()" aria-label="목차" aria-expanded="false">
+    <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <circle cx="3.2" cy="5" r="1.4" fill="currentColor" stroke="none"/><line x1="7.5" y1="5" x2="17" y2="5"/>
+      <circle cx="3.2" cy="10" r="1.4" fill="currentColor" stroke="none"/><line x1="7.5" y1="10" x2="17" y2="10"/>
+      <circle cx="3.2" cy="15" r="1.4" fill="currentColor" stroke="none"/><line x1="7.5" y1="15" x2="17" y2="15"/>
+    </svg>
+  </button>
+  <nav class="toc-panel" id="tocPanel" aria-label="목차" aria-hidden="true"></nav>
   <div class="viz-menu">
     <button class="viz-menu-toggle" onclick="toggleMenu()" aria-label="Menu">
       <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
@@ -515,7 +523,7 @@
 </table>
 
   </div>
-  <div class="slide-takeaway animate-in delay-2"><strong>개념은 끝, 오후는 실습</strong> — AX가 무엇이고 왜 지금인지 그림이 그려졌다면, 오후 세션 2~5에서 Gemini로 직접 4단계를 돌려봅니다.</div>
+  <div class="slide-takeaway animate-in delay-2"><strong>개념은 끝, 다음은 실습</strong> — AX가 무엇이고 왜 지금인지 그림이 그려졌다면, 다음 세션 2~5에서 Gemini로 직접 4단계를 돌려봅니다.</div>
   <div class="slide-footer">
     <span>국민건강보험공단</span>
     <span class="slide-footer__page"><span>26</span> / 106</span>

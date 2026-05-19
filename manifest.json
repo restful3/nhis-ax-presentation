@@ -1,14 +1,14 @@
 {
   "generator": "scripts/build_presentation.py",
-  "built_at": "2026-05-19T11:22:49+00:00",
+  "built_at": "2026-05-19T12:24:14+00:00",
   "git": {
-    "commit": "cc902a1bd038e8a9bbbbb066412ebcefed5cd156",
-    "tag": "edu-0520-v1.0-4-gcc902a1",
+    "commit": "2adbd167ad4bd7272b7440d215f11896c35d0081",
+    "tag": "edu-0520-v1.0-5-g2adbd16",
     "tag_points_at_head": ""
   },
   "input": {
     "combined_html": "output/NHIS_AX_slides_0520_combined.html",
-    "combined_html_sha256": "4d7f98f38b681331293a3e468c0754d11d555e043d8ccf1114a0a0041b0cdb4a"
+    "combined_html_sha256": "6819492d6e3183933fdd71ebffedde038be3cc09ad1016871bc6a137765ce605"
   },
   "decisions": {
     "Q2_animation": "요소 등장 애니메이션 없음 (사용자 요청 2026-05-19) — fragment 단계 등장·요소 entrance 애니메이션 모두 제거. 방향키/클릭/스와이프 한 번이면 다음 장 직행, 장 전환 슬라이드 효과만 유지.",
@@ -33,9 +33,9 @@
     "entries": 15
   },
   "hashes": {
-    "index.html": "03e1112d099f855c9e22a1be578653def30f4d8c47eeb3aab7c63aa950e0c083",
-    "assets/deck.js": "d4f61a73bd5c647535b1a8383fc89634ddd9e0576c74f45ad4fabceff00ff482",
-    "assets/theme_slides.css": "3baf13c76df2f3b015f28cd97cbee09dc2fdb29e2e10c424302e666dd8f01f44",
+    "index.html": "c259f10ec218e8d8661beba50c83035ec99d115e4d7fa114ad6b92b4a53d281e",
+    "assets/deck.js": "8c54fcdd1be37d2fed4bf305d9689f4138b037f58bf6e5d2e3a5ccaa982b54e2",
+    "assets/theme_slides.css": "c6e1ae0d7edb14c71d133763c0bf1f701b722f670e425d2cb08792311f6df655",
     "assets/chart.umd.min.js": "d7073f8f80a6ce74fb33e22e16d692ae8306fbf69d8168fa0db8f3142837ab68",
     "assets/fonts.css": "34a3544b98efe62db88b4cf40031fc85d47a6133d74040cd9fe87ab74ba19e5c"
   }

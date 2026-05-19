@@ -1,28 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 252">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300">
   <!-- Band 1: 발표 자료 -->
-  <g transform="translate(8,8)">
-    <rect x="0" y="0" width="864" height="110" rx="14" fill="#64748b" fill-opacity="0.06" stroke="#64748b" stroke-width="1.5"/>
-    <rect x="24" y="23" width="64" height="64" rx="14" fill="#0d9488"/>
+  <g transform="translate(0,10)">
+    <rect x="10" y="0" width="860" height="130" rx="18" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.6"/>
+    <rect x="36" y="26" width="78" height="78" rx="18" fill="#0d9488"/>
     <!-- monitor icon -->
-    <rect x="40" y="39" width="32" height="22" rx="2.5" fill="none" stroke="#ffffff" stroke-width="2.4"/>
-    <line x1="56" y1="61" x2="56" y2="68" stroke="#ffffff" stroke-width="2.4"/>
-    <line x1="48" y1="69" x2="64" y2="69" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
-    <text x="110" y="46" font-size="19" font-weight="800" fill="#1f2937">발표 자료</text>
-    <text x="110" y="69" font-size="13" fill="#6b7280">지금 보고 있는 이 슬라이드 덱</text>
-    <rect x="110" y="78" width="724" height="28" rx="7" fill="#f0fdfa" stroke="#5eead4" stroke-width="1"/>
-    <text x="126" y="97" font-size="14" font-family="monospace" fill="#0f766e">restful3.github.io/nhis-ax-presentation/</text>
+    <rect x="55" y="46" width="40" height="28" rx="3" fill="none" stroke="#ffffff" stroke-width="2.8"/>
+    <line x1="75" y1="74" x2="75" y2="82" stroke="#ffffff" stroke-width="2.8"/>
+    <line x1="66" y1="84" x2="84" y2="84" stroke="#ffffff" stroke-width="2.8" stroke-linecap="round"/>
+    <text x="132" y="40" font-size="22" font-weight="800" fill="#1f2937">발표 자료</text>
+    <text x="132" y="64" font-size="14" fill="#6b7280">지금 보고 있는 이 슬라이드 덱</text>
+    <rect x="132" y="74" width="388" height="32" rx="8" fill="#f0fdfa" stroke="#5eead4" stroke-width="1.2"/>
+    <text x="150" y="95" font-size="14.5" font-family="monospace" fill="#0f766e">restful3.github.io/nhis-ax-presentation/</text>
   </g>
   <!-- Band 2: 실습 파일 -->
-  <g transform="translate(8,134)">
-    <rect x="0" y="0" width="864" height="110" rx="14" fill="#64748b" fill-opacity="0.06" stroke="#64748b" stroke-width="1.5"/>
-    <rect x="24" y="23" width="64" height="64" rx="14" fill="#0d9488"/>
+  <g transform="translate(0,160)">
+    <rect x="10" y="0" width="860" height="130" rx="18" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.6"/>
+    <rect x="36" y="26" width="78" height="78" rx="18" fill="#0d9488"/>
     <!-- download icon -->
-    <line x1="56" y1="37" x2="56" y2="57" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
-    <polygon points="47,52 65,52 56,67" fill="#ffffff"/>
-    <line x1="44" y1="72" x2="68" y2="72" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
-    <text x="110" y="46" font-size="19" font-weight="800" fill="#1f2937">실습 파일</text>
-    <text x="110" y="69" font-size="13" fill="#6b7280">세션 2~5 실습용 데이터 묶음 (zip)</text>
-    <rect x="110" y="78" width="724" height="28" rx="7" fill="#f0fdfa" stroke="#5eead4" stroke-width="1"/>
-    <text x="126" y="97" font-size="14" font-family="monospace" fill="#0f766e">restful3.github.io/nhis-ax-presentation/data/practice-files.zip</text>
+    <line x1="75" y1="43" x2="75" y2="67" stroke="#ffffff" stroke-width="2.8" stroke-linecap="round"/>
+    <polygon points="64,62 86,62 75,80" fill="#ffffff"/>
+    <line x1="61" y1="88" x2="89" y2="88" stroke="#ffffff" stroke-width="2.8" stroke-linecap="round"/>
+    <text x="132" y="40" font-size="22" font-weight="800" fill="#1f2937">실습 파일</text>
+    <text x="132" y="64" font-size="14" fill="#6b7280">세션 2~5 실습용 데이터 묶음 (zip)</text>
+    <rect x="132" y="74" width="592" height="32" rx="8" fill="#f0fdfa" stroke="#5eead4" stroke-width="1.2"/>
+    <text x="150" y="95" font-size="14.5" font-family="monospace" fill="#0f766e">restful3.github.io/nhis-ax-presentation/data/practice-files.zip</text>
   </g>
 </svg>

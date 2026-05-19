@@ -51,6 +51,7 @@ function goTo(i) {
   slides.forEach(function(s, idx) { s.classList.toggle('is-active', idx === curIdx); });
   // Animate counters on slides as they become active
   animateCountersOnSlide(slides[curIdx]);
+  updateTocCurrent();
 }
 function nextSlide() { goTo(curIdx + 1); }
 function prevSlide() { goTo(curIdx - 1); }
@@ -63,61 +64,99 @@ document.addEventListener('keydown', function(e) {
   if (e.key === 'End') { e.preventDefault(); goTo(total - 1); }
 });
 
-// ===== Jump to slide by number (type digits, Enter to go) =====
-var jumpBuf = '';
-var jumpTimer = null;
-var jumpEl = null;
-function showJump() {
-  if (!jumpEl) {
-    jumpEl = document.createElement('div');
-    jumpEl.id = 'slideJumpHint';
-    jumpEl.style.cssText = 'position:fixed;left:50%;top:50%;'
-      + 'transform:translate(-50%,-50%);z-index:9999;padding:16px 34px;'
-      + 'border-radius:14px;pointer-events:none;font-family:Inter,sans-serif;'
-      + 'font-weight:800;font-size:46px;letter-spacing:1px;color:#fff;'
-      + 'background:rgba(15,26,46,0.94);box-shadow:0 10px 44px rgba(0,0,0,0.45);';
-    document.body.appendChild(jumpEl);
-  }
-  if (jumpBuf) {
-    jumpEl.textContent = jumpBuf + ' / ' + total;
-    jumpEl.style.display = 'block';
-  } else {
-    jumpEl.style.display = 'none';
-  }
+// ===== Table of contents (left slide-in panel) =====
+var tocPanel = document.getElementById('tocPanel');
+var tocToggle = document.getElementById('tocToggle');
+function buildToc() {
+  if (!tocPanel) return;
+  var title = document.createElement('div');
+  title.className = 'toc-panel__title';
+  title.textContent = '목차';
+  tocPanel.appendChild(title);
+  slides.forEach(function(s, idx) {
+    var isSection = s.classList.contains('slide--section');
+    var label;
+    if (isSection) {
+      var h = s.querySelector('.section-hero h1');
+      var sn = s.querySelector('.section-num');
+      label = (sn ? '§' + parseInt(sn.textContent, 10) + '  ' : '')
+        + (h ? h.textContent.trim() : '');
+    } else if (s.classList.contains('slide--cover')) {
+      label = '표지';
+    } else if (s.classList.contains('slide--closing')) {
+      label = '마무리';
+    } else {
+      label = s.getAttribute('aria-label') || ('슬라이드 ' + (idx + 1));
+    }
+    var btn = document.createElement('button');
+    btn.className = 'toc-row' + (isSection ? ' toc-row--group' : '');
+    btn.dataset.idx = idx;
+    var num = document.createElement('span');
+    num.className = 'toc-row__num';
+    num.textContent = idx + 1;
+    btn.appendChild(num);
+    btn.appendChild(document.createTextNode(label));
+    btn.addEventListener('click', function() { goTo(idx); closeToc(); });
+    tocPanel.appendChild(btn);
+  });
 }
-function clearJump() {
-  jumpBuf = '';
-  if (jumpTimer) { clearTimeout(jumpTimer); jumpTimer = null; }
-  showJump();
+function updateTocCurrent() {
+  if (!tocPanel) return;
+  tocPanel.querySelectorAll('.toc-row').forEach(function(r) {
+    var on = parseInt(r.dataset.idx, 10) === curIdx;
+    r.classList.toggle('current', on);
+    if (on && tocPanel.classList.contains('open')) {
+      r.scrollIntoView({ block: 'nearest' });
+    }
+  });
 }
-function armJumpTimer() {
-  if (jumpTimer) clearTimeout(jumpTimer);
-  jumpTimer = setTimeout(clearJump, 2500);
+function openToc() {
+  if (!tocPanel) return;
+  tocPanel.classList.add('open');
+  tocPanel.setAttribute('aria-hidden', 'false');
+  if (tocToggle) tocToggle.setAttribute('aria-expanded', 'true');
+  updateTocCurrent();
+  showChrome();
 }
-document.addEventListener('keydown', function(e) {
-  if (e.key >= '0' && e.key <= '9') {
-    e.preventDefault();
-    jumpBuf = (jumpBuf + e.key).slice(0, 4);
-    showJump();
-    armJumpTimer();
-    return;
-  }
-  if (!jumpBuf) return;
-  if (e.key === 'Enter') {
-    e.preventDefault();
-    var n = parseInt(jumpBuf, 10);
-    clearJump();
-    if (n >= 1) goTo(n - 1);
-  } else if (e.key === 'Backspace') {
-    e.preventDefault();
-    jumpBuf = jumpBuf.slice(0, -1);
-    showJump();
-    armJumpTimer();
-  } else if (e.key === 'Escape') {
-    e.preventDefault();
-    clearJump();
+function closeToc() {
+  if (!tocPanel) return;
+  tocPanel.classList.remove('open');
+  tocPanel.setAttribute('aria-hidden', 'true');
+  if (tocToggle) tocToggle.setAttribute('aria-expanded', 'false');
+  showChrome();
+}
+function toggleToc() {
+  if (tocPanel && tocPanel.classList.contains('open')) closeToc();
+  else openToc();
+}
+document.addEventListener('click', function(e) {
+  if (!tocPanel || !tocPanel.classList.contains('open')) return;
+  if (!e.target.closest('.toc-panel') && !e.target.closest('.toc-toggle')) {
+    closeToc();
   }
 });
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeToc();
+});
+
+// ===== Auto-hide chrome (nav bar + top icons) on mouse idle =====
+var chromeTimer = null;
+function hideChrome() {
+  var dd = document.getElementById('vizMenuDropdown');
+  if ((tocPanel && tocPanel.classList.contains('open'))
+      || (dd && dd.classList.contains('open'))) {
+    chromeTimer = setTimeout(hideChrome, 3000);
+    return;
+  }
+  document.body.classList.add('chrome-hidden');
+}
+function showChrome() {
+  document.body.classList.remove('chrome-hidden');
+  if (chromeTimer) clearTimeout(chromeTimer);
+  chromeTimer = setTimeout(hideChrome, 3000);
+}
+document.addEventListener('mousemove', showChrome);
+document.addEventListener('touchstart', showChrome);
 
 // Touch swipe
 var touchStart = null;
@@ -131,6 +170,7 @@ document.addEventListener('touchend', function(e) {
 
 // Click left/right third of screen
 document.querySelector('.deck').addEventListener('click', function(e) {
+  if (tocPanel && tocPanel.classList.contains('open')) return;
   if (e.target.closest('.slide-nav') || e.target.closest('.viz-menu') || e.target.closest('button') || e.target.closest('a')) return;
   var x = e.clientX, w = window.innerWidth;
   if (x < w * 0.33) prevSlide();
@@ -274,5 +314,7 @@ window.addEventListener('afterprint', function() {
 window.addEventListener('load', function() {
   fitStage();
   buildCharts();
+  buildToc();
   goTo(0);
+  showChrome();
 });
