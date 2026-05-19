@@ -63,6 +63,62 @@ document.addEventListener('keydown', function(e) {
   if (e.key === 'End') { e.preventDefault(); goTo(total - 1); }
 });
 
+// ===== Jump to slide by number (type digits, Enter to go) =====
+var jumpBuf = '';
+var jumpTimer = null;
+var jumpEl = null;
+function showJump() {
+  if (!jumpEl) {
+    jumpEl = document.createElement('div');
+    jumpEl.id = 'slideJumpHint';
+    jumpEl.style.cssText = 'position:fixed;left:50%;top:50%;'
+      + 'transform:translate(-50%,-50%);z-index:9999;padding:16px 34px;'
+      + 'border-radius:14px;pointer-events:none;font-family:Inter,sans-serif;'
+      + 'font-weight:800;font-size:46px;letter-spacing:1px;color:#fff;'
+      + 'background:rgba(15,26,46,0.94);box-shadow:0 10px 44px rgba(0,0,0,0.45);';
+    document.body.appendChild(jumpEl);
+  }
+  if (jumpBuf) {
+    jumpEl.textContent = jumpBuf + ' / ' + total;
+    jumpEl.style.display = 'block';
+  } else {
+    jumpEl.style.display = 'none';
+  }
+}
+function clearJump() {
+  jumpBuf = '';
+  if (jumpTimer) { clearTimeout(jumpTimer); jumpTimer = null; }
+  showJump();
+}
+function armJumpTimer() {
+  if (jumpTimer) clearTimeout(jumpTimer);
+  jumpTimer = setTimeout(clearJump, 2500);
+}
+document.addEventListener('keydown', function(e) {
+  if (e.key >= '0' && e.key <= '9') {
+    e.preventDefault();
+    jumpBuf = (jumpBuf + e.key).slice(0, 4);
+    showJump();
+    armJumpTimer();
+    return;
+  }
+  if (!jumpBuf) return;
+  if (e.key === 'Enter') {
+    e.preventDefault();
+    var n = parseInt(jumpBuf, 10);
+    clearJump();
+    if (n >= 1) goTo(n - 1);
+  } else if (e.key === 'Backspace') {
+    e.preventDefault();
+    jumpBuf = jumpBuf.slice(0, -1);
+    showJump();
+    armJumpTimer();
+  } else if (e.key === 'Escape') {
+    e.preventDefault();
+    clearJump();
+  }
+});
+
 // Touch swipe
 var touchStart = null;
 document.addEventListener('touchstart', function(e) { touchStart = e.touches[0].clientX; });
