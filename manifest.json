@@ -1,6 +1,6 @@
 {
   "generator": "scripts/build_presentation.py",
-  "built_at": "2026-05-19T02:12:58+00:00",
+  "built_at": "2026-05-19T08:11:13+00:00",
   "git": {
     "commit": "cc902a1bd038e8a9bbbbb066412ebcefed5cd156",
     "tag": "edu-0520-v1.0-4-gcc902a1",
@@ -8,7 +8,7 @@
   },
   "input": {
     "combined_html": "output/NHIS_AX_slides_0520_combined.html",
-    "combined_html_sha256": "a3c748ba4b06db05b14a05324e016bb808768001c67daa51462728d10f6e89d8"
+    "combined_html_sha256": "c5e2353ea40dfba5e4944ac277e93134ab1892d8608e89b0a71b0dccbae2313c"
   },
   "decisions": {
     "Q2_animation": "요소 등장 애니메이션 없음 (사용자 요청 2026-05-19) — fragment 단계 등장·요소 entrance 애니메이션 모두 제거. 방향키/클릭/스와이프 한 번이면 다음 장 직행, 장 전환 슬라이드 효과만 유지.",
@@ -16,16 +16,28 @@
     "fonts": "옵션 B — font-family 를 번들 폰트(Inter·Noto Sans KR·JetBrains Mono)로 정리. @fontsource v5 woff2. 화살표·원숫자 등 일부 기호는 서브셋 밖이라 시스템 폰트로 폴백(렌더는 정상)."
   },
   "counts": {
-    "slides": 113,
-    "slide_total_display": 113,
+    "slides": 114,
+    "slide_total_display": 114,
     "figs_copied": 62,
     "font_faces": 14,
     "fonts_downloaded_this_run": 0,
     "external_url_refs_controlled_files": 0,
     "external_url_strings_in_chartjs": 0
   },
+  "practice_zip": {
+    "source": "data/수강생배포용.zip",
+    "output": "data/practice-files.zip",
+    "public_url": "https://restful3.github.io/nhis-ax-presentation/data/practice-files.zip",
+    "bytes": 154926,
+    "sha256": "67f82fc9be147d2e17adba0ca6d3896f2166cabffc6e68ea265e786b862136a2",
+    "entries": 15
+  },
+  "allowed_url_occurrences": {
+    "deck_url": 2,
+    "download_url": 2
+  },
   "hashes": {
-    "index.html": "582555352437488bf3f6863c58e463e7f847277a2aa26c55b4320f1ff8d3e817",
+    "index.html": "4597044390fe347a124cbf3d5c12250a0fd33c6bfcde46ea2c45d8f6af2ac5de",
     "assets/deck.js": "53759178e1ac513fcc610186bb13b27c371cf4bd8b6e095c911c3837827f5804",
     "assets/theme_slides.css": "3baf13c76df2f3b015f28cd97cbee09dc2fdb29e2e10c424302e666dd8f01f44",
     "assets/chart.umd.min.js": "d7073f8f80a6ce74fb33e22e16d692ae8306fbf69d8168fa0db8f3142837ab68",
