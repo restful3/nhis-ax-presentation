@@ -22,7 +22,7 @@ document.addEventListener('keydown', function(e) {
 
 // ===== Theme =====
 var savedTheme = localStorage.getItem('lg-viz-theme');
-var currentTheme = savedTheme || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+var currentTheme = savedTheme || 'light';
 function applyTheme(t) {
   document.documentElement.className = 'theme-' + t;
   var icon = document.getElementById('themeIcon');

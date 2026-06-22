@@ -1,9 +1,9 @@
 {
   "generator": "scripts/build_presentation.py",
-  "built_at": "2026-05-22T05:09:36+00:00",
+  "built_at": "2026-06-22T11:48:05+00:00",
   "git": {
-    "commit": "e59f0b1654c0564dd591adbdd7e812b59b189946",
-    "tag": "edu-0520-v1.0-8-ge59f0b1",
+    "commit": "56d93769863bb338b90da0be9aac3860f4281757",
+    "tag": "edu-0520-v1.0-9-g56d9376",
     "tag_points_at_head": ""
   },
   "input": {
@@ -34,7 +34,7 @@
   },
   "hashes": {
     "index.html": "ebe8faa40fd51108ec39087373d8ed7e27d3a3f34e4c2b6450c1d8933285fac5",
-    "assets/deck.js": "05da84993ad8ffdfa1c9f82f6c75bfd2ae0e87567f74c716ed56093277c35f56",
+    "assets/deck.js": "5a83eb4bac513ae51a04f3fe4291d3f114e71d9bf3aad519d918a94b6746bd9f",
     "assets/theme_slides.css": "cbc94c431dfbc63fb9fbc7226e52c9b72aeebbfbcf5bf1dc640ed65345b86163",
     "assets/chart.umd.min.js": "d7073f8f80a6ce74fb33e22e16d692ae8306fbf69d8168fa0db8f3142837ab68",
     "assets/fonts.css": "34a3544b98efe62db88b4cf40031fc85d47a6133d74040cd9fe87ab74ba19e5c"
